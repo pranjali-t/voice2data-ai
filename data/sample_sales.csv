@@ -1,0 +1,1001 @@
+Transaction_ID,Date,Customer,Product,Category,Region,Quarter,Units,Unit_Price,Revenue,Payment_Mode,Salesperson
+TXN0001,2026-01-01,Customer_107,Office Chair,Furniture,Central,Q1,4,27000,108000,Cash,Arjun
+TXN0002,2026-01-01,Customer_203,Webcam,Accessories,Central,Q1,3,3200,9600,Net Banking,Ishita
+TXN0003,2026-01-01,Customer_002,Desk,Furniture,West,Q1,3,5300,15900,Credit Card,Ishita
+TXN0004,2026-01-01,Customer_022,Keyboard,Accessories,Central,Q1,1,2700,2700,Net Banking,Aarav
+TXN0005,2026-01-01,Customer_170,Laptop,Electronics,West,Q1,3,79500,238500,Net Banking,Ishita
+TXN0006,2026-01-02,Customer_064,Tablet,Electronics,North,Q1,4,37000,148000,Debit Card,Vikram
+TXN0007,2026-01-02,Customer_167,Tablet,Electronics,South,Q1,7,24300,170100,Net Banking,Aarav
+TXN0008,2026-01-02,Customer_053,Smartphone,Electronics,South,Q1,2,31800,63600,Net Banking,Ananya
+TXN0009,2026-01-02,Customer_175,Office Chair,Furniture,East,Q1,4,17400,69600,UPI,Ananya
+TXN0010,2026-01-03,Customer_134,Smartphone,Electronics,South,Q1,4,32100,128400,Net Banking,Neha
+TXN0011,2026-01-03,Customer_202,Smartphone,Electronics,West,Q1,2,39700,79400,Net Banking,Aarav
+TXN0012,2026-01-03,Customer_082,Desk,Furniture,Central,Q1,5,11600,58000,Credit Card,Aarav
+TXN0013,2026-01-03,Customer_065,Printer,Office Equipment,North,Q1,5,25600,128000,UPI,Ishita
+TXN0014,2026-01-04,Customer_063,Laptop,Electronics,East,Q1,4,66700,266800,Debit Card,Aarav
+TXN0015,2026-01-04,Customer_123,Desk,Furniture,Central,Q1,3,18400,55200,Credit Card,Arjun
+TXN0016,2026-01-04,Customer_201,Webcam,Accessories,West,Q1,1,9400,9400,Credit Card,Aarav
+TXN0017,2026-01-04,Customer_037,Office Chair,Furniture,East,Q1,7,21000,147000,Net Banking,Ishita
+TXN0018,2026-01-04,Customer_227,Headphones,Accessories,Central,Q1,3,7400,22200,Debit Card,Aarav
+TXN0019,2026-01-05,Customer_142,Keyboard,Accessories,East,Q1,2,2300,4600,UPI,Arjun
+TXN0020,2026-01-05,Customer_179,Webcam,Accessories,North,Q1,2,5800,11600,Net Banking,Vikram
+TXN0021,2026-01-05,Customer_231,Monitor,Electronics,Central,Q1,6,13500,81000,Debit Card,Vikram
+TXN0022,2026-01-05,Customer_187,Monitor,Electronics,East,Q1,5,11900,59500,Net Banking,Priya
+TXN0023,2026-01-06,Customer_245,Webcam,Accessories,West,Q1,5,4700,23500,Net Banking,Ananya
+TXN0024,2026-01-06,Customer_128,Monitor,Electronics,South,Q1,6,32100,192600,Net Banking,Aarav
+TXN0025,2026-01-06,Customer_121,Office Chair,Furniture,East,Q1,6,9300,55800,UPI,Ananya
+TXN0026,2026-01-06,Customer_200,Printer,Office Equipment,East,Q1,3,8200,24600,UPI,Neha
+TXN0027,2026-01-07,Customer_172,Keyboard,Accessories,East,Q1,1,1800,1800,UPI,Ananya
+TXN0028,2026-01-07,Customer_052,Laptop,Electronics,West,Q1,6,93900,563400,Credit Card,Rahul
+TXN0029,2026-01-07,Customer_081,Laptop,Electronics,East,Q1,5,66400,332000,UPI,Priya
+TXN0030,2026-01-07,Customer_229,Smartphone,Electronics,North,Q1,4,17800,71200,UPI,Rahul
+TXN0031,2026-01-07,Customer_160,Smartphone,Electronics,West,Q1,5,41900,209500,Debit Card,Ishita
+TXN0032,2026-01-08,Customer_069,Laptop,Electronics,West,Q1,7,87100,609700,Credit Card,Neha
+TXN0033,2026-01-08,Customer_144,Headphones,Accessories,North,Q1,3,10100,30300,UPI,Ananya
+TXN0034,2026-01-08,Customer_187,Headphones,Accessories,West,Q1,5,10500,52500,Debit Card,Priya
+TXN0035,2026-01-08,Customer_096,Tablet,Electronics,West,Q1,7,26400,184800,UPI,Aarav
+TXN0036,2026-01-09,Customer_129,Desk,Furniture,East,Q1,7,20900,146300,Net Banking,Aarav
+TXN0037,2026-01-09,Customer_222,Printer,Office Equipment,South,Q1,2,28300,56600,Debit Card,Arjun
+TXN0038,2026-01-09,Customer_113,Webcam,Accessories,South,Q1,1,6400,6400,UPI,Ishita
+TXN0039,2026-01-09,Customer_247,Keyboard,Accessories,North,Q1,5,5400,27000,UPI,Rahul
+TXN0040,2026-01-10,Customer_054,Tablet,Electronics,North,Q1,3,49700,149100,Net Banking,Rahul
+TXN0041,2026-01-10,Customer_084,Laptop,Electronics,East,Q1,4,90900,363600,UPI,Rahul
+TXN0042,2026-01-10,Customer_110,Printer,Office Equipment,South,Q1,5,14200,71000,Credit Card,Neha
+TXN0043,2026-01-10,Customer_161,Tablet,Electronics,West,Q1,5,26300,131500,UPI,Neha
+TXN0044,2026-01-10,Customer_136,Keyboard,Accessories,East,Q1,4,3000,12000,UPI,Ishita
+TXN0045,2026-01-11,Customer_214,Laptop,Electronics,Central,Q1,4,75400,301600,Debit Card,Neha
+TXN0046,2026-01-11,Customer_021,Desk,Furniture,North,Q1,3,12400,37200,Net Banking,Arjun
+TXN0047,2026-01-11,Customer_048,Laptop,Electronics,East,Q1,5,64200,321000,Net Banking,Rahul
+TXN0048,2026-01-11,Customer_158,Laptop,Electronics,Central,Q1,1,94800,94800,Cash,Neha
+TXN0049,2026-01-12,Customer_024,Tablet,Electronics,Central,Q1,4,18600,74400,UPI,Neha
+TXN0050,2026-01-12,Customer_225,Keyboard,Accessories,West,Q1,7,5800,40600,Cash,Vikram
+TXN0051,2026-01-12,Customer_128,Office Chair,Furniture,South,Q1,1,13700,13700,UPI,Priya
+TXN0052,2026-01-12,Customer_174,Headphones,Accessories,South,Q1,2,11300,22600,Credit Card,Arjun
+TXN0053,2026-01-13,Customer_104,Webcam,Accessories,North,Q1,2,4900,9800,UPI,Rahul
+TXN0054,2026-01-13,Customer_247,Headphones,Accessories,South,Q1,7,4600,32200,Debit Card,Priya
+TXN0055,2026-01-13,Customer_135,Printer,Office Equipment,North,Q1,5,9800,49000,Net Banking,Vikram
+TXN0056,2026-01-13,Customer_238,Monitor,Electronics,West,Q1,1,11800,11800,Debit Card,Arjun
+TXN0057,2026-01-13,Customer_191,Smartphone,Electronics,East,Q1,2,39100,78200,UPI,Priya
+TXN0058,2026-01-14,Customer_049,Headphones,Accessories,West,Q1,2,10500,21000,Credit Card,Neha
+TXN0059,2026-01-14,Customer_225,Headphones,Accessories,Central,Q1,3,2800,8400,Net Banking,Ananya
+TXN0060,2026-01-14,Customer_109,Keyboard,Accessories,West,Q1,7,1600,11200,Debit Card,Arjun
+TXN0061,2026-01-14,Customer_114,Desk,Furniture,West,Q1,4,7300,29200,Credit Card,Neha
+TXN0062,2026-01-15,Customer_019,Tablet,Electronics,West,Q1,1,32800,32800,Credit Card,Arjun
+TXN0063,2026-01-15,Customer_062,Webcam,Accessories,North,Q1,5,3900,19500,Net Banking,Vikram
+TXN0064,2026-01-15,Customer_239,Laptop,Electronics,South,Q1,2,91600,183200,UPI,Ishita
+TXN0065,2026-01-15,Customer_231,Keyboard,Accessories,Central,Q1,1,5800,5800,Cash,Arjun
+TXN0066,2026-01-16,Customer_179,Tablet,Electronics,Central,Q1,4,38900,155600,UPI,Vikram
+TXN0067,2026-01-16,Customer_238,Keyboard,Accessories,West,Q1,7,1400,9800,Cash,Ananya
+TXN0068,2026-01-16,Customer_039,Webcam,Accessories,West,Q1,2,6200,12400,UPI,Neha
+TXN0069,2026-01-16,Customer_246,Keyboard,Accessories,Central,Q1,7,1400,9800,Net Banking,Priya
+TXN0070,2026-01-16,Customer_147,Monitor,Electronics,South,Q1,7,10400,72800,UPI,Ishita
+TXN0071,2026-01-17,Customer_024,Keyboard,Accessories,South,Q1,5,2000,10000,UPI,Ananya
+TXN0072,2026-01-17,Customer_124,Monitor,Electronics,North,Q1,4,19700,78800,UPI,Vikram
+TXN0073,2026-01-17,Customer_067,Tablet,Electronics,North,Q1,3,52800,158400,UPI,Ishita
+TXN0074,2026-01-17,Customer_141,Webcam,Accessories,West,Q1,3,4000,12000,Credit Card,Vikram
+TXN0075,2026-01-18,Customer_081,Tablet,Electronics,South,Q1,2,43300,86600,Cash,Priya
+TXN0076,2026-01-18,Customer_115,Webcam,Accessories,North,Q1,2,5100,10200,Net Banking,Priya
+TXN0077,2026-01-18,Customer_157,Keyboard,Accessories,West,Q1,2,4200,8400,UPI,Vikram
+TXN0078,2026-01-18,Customer_201,Printer,Office Equipment,East,Q1,4,11900,47600,UPI,Rahul
+TXN0079,2026-01-19,Customer_096,Monitor,Electronics,Central,Q1,2,16300,32600,Net Banking,Aarav
+TXN0080,2026-01-19,Customer_099,Office Chair,Furniture,North,Q1,5,22500,112500,UPI,Aarav
+TXN0081,2026-01-19,Customer_187,Monitor,Electronics,East,Q1,1,18000,18000,UPI,Ananya
+TXN0082,2026-01-19,Customer_199,Printer,Office Equipment,West,Q1,3,10000,30000,Net Banking,Rahul
+TXN0083,2026-01-19,Customer_069,Webcam,Accessories,East,Q1,7,3100,21700,Net Banking,Aarav
+TXN0084,2026-01-20,Customer_053,Monitor,Electronics,North,Q1,3,15300,45900,Cash,Vikram
+TXN0085,2026-01-20,Customer_223,Webcam,Accessories,South,Q1,2,2900,5800,Cash,Rahul
+TXN0086,2026-01-20,Customer_146,Office Chair,Furniture,West,Q1,5,14400,72000,UPI,Priya
+TXN0087,2026-01-20,Customer_230,Webcam,Accessories,Central,Q1,4,9000,36000,Credit Card,Aarav
+TXN0088,2026-01-21,Customer_005,Smartphone,Electronics,Central,Q1,3,53800,161400,Cash,Neha
+TXN0089,2026-01-21,Customer_244,Tablet,Electronics,North,Q1,5,31700,158500,UPI,Vikram
+TXN0090,2026-01-21,Customer_159,Monitor,Electronics,East,Q1,4,19400,77600,Cash,Ananya
+TXN0091,2026-01-21,Customer_090,Headphones,Accessories,East,Q1,7,6000,42000,Debit Card,Vikram
+TXN0092,2026-01-22,Customer_148,Smartphone,Electronics,West,Q1,4,46400,185600,Cash,Arjun
+TXN0093,2026-01-22,Customer_205,Printer,Office Equipment,West,Q1,7,24400,170800,UPI,Arjun
+TXN0094,2026-01-22,Customer_166,Laptop,Electronics,Central,Q1,1,89700,89700,Credit Card,Ananya
+TXN0095,2026-01-22,Customer_229,Keyboard,Accessories,West,Q1,6,5600,33600,Debit Card,Rahul
+TXN0096,2026-01-22,Customer_233,Monitor,Electronics,North,Q1,1,23100,23100,UPI,Vikram
+TXN0097,2026-01-23,Customer_215,Headphones,Accessories,North,Q1,6,5500,33000,Debit Card,Ananya
+TXN0098,2026-01-23,Customer_156,Webcam,Accessories,Central,Q1,6,5900,35400,Credit Card,Ananya
+TXN0099,2026-01-23,Customer_060,Monitor,Electronics,South,Q1,2,19700,39400,Net Banking,Ananya
+TXN0100,2026-01-23,Customer_155,Keyboard,Accessories,North,Q1,1,2400,2400,UPI,Aarav
+TXN0101,2026-01-24,Customer_240,Keyboard,Accessories,Central,Q1,4,4100,16400,Cash,Neha
+TXN0102,2026-01-24,Customer_115,Tablet,Electronics,Central,Q1,5,52800,264000,UPI,Priya
+TXN0103,2026-01-24,Customer_109,Webcam,Accessories,Central,Q1,6,9000,54000,UPI,Neha
+TXN0104,2026-01-24,Customer_177,Laptop,Electronics,East,Q1,2,94500,189000,Cash,Priya
+TXN0105,2026-01-25,Customer_177,Printer,Office Equipment,Central,Q1,6,26200,157200,UPI,Priya
+TXN0106,2026-01-25,Customer_149,Printer,Office Equipment,West,Q1,3,10900,32700,UPI,Vikram
+TXN0107,2026-01-25,Customer_023,Keyboard,Accessories,Central,Q1,6,5600,33600,Cash,Vikram
+TXN0108,2026-01-25,Customer_085,Webcam,Accessories,North,Q1,2,5300,10600,UPI,Rahul
+TXN0109,2026-01-25,Customer_232,Monitor,Electronics,South,Q1,6,32000,192000,Net Banking,Arjun
+TXN0110,2026-01-26,Customer_162,Desk,Furniture,East,Q1,7,16400,114800,Debit Card,Priya
+TXN0111,2026-01-26,Customer_222,Laptop,Electronics,East,Q1,6,93700,562200,UPI,Aarav
+TXN0112,2026-01-26,Customer_142,Office Chair,Furniture,South,Q1,7,23500,164500,Debit Card,Rahul
+TXN0113,2026-01-26,Customer_226,Office Chair,Furniture,South,Q1,6,20000,120000,Credit Card,Priya
+TXN0114,2026-01-27,Customer_249,Tablet,Electronics,North,Q1,7,44900,314300,Net Banking,Neha
+TXN0115,2026-01-27,Customer_133,Office Chair,Furniture,Central,Q1,2,25100,50200,Net Banking,Priya
+TXN0116,2026-01-27,Customer_084,Desk,Furniture,Central,Q1,1,13400,13400,Credit Card,Neha
+TXN0117,2026-01-27,Customer_235,Keyboard,Accessories,East,Q1,2,2800,5600,Debit Card,Rahul
+TXN0118,2026-01-28,Customer_095,Printer,Office Equipment,East,Q1,7,10800,75600,Net Banking,Ishita
+TXN0119,2026-01-28,Customer_195,Monitor,Electronics,East,Q1,1,32400,32400,Cash,Ishita
+TXN0120,2026-01-28,Customer_147,Smartphone,Electronics,Central,Q1,5,25600,128000,Cash,Priya
+TXN0121,2026-01-28,Customer_070,Webcam,Accessories,North,Q1,5,2700,13500,Cash,Aarav
+TXN0122,2026-01-28,Customer_078,Webcam,Accessories,South,Q1,6,5200,31200,Cash,Rahul
+TXN0123,2026-01-29,Customer_121,Printer,Office Equipment,East,Q1,2,25600,51200,Cash,Aarav
+TXN0124,2026-01-29,Customer_113,Webcam,Accessories,East,Q1,4,8500,34000,Cash,Ananya
+TXN0125,2026-01-29,Customer_028,Desk,Furniture,South,Q1,6,9000,54000,Cash,Priya
+TXN0126,2026-01-29,Customer_111,Desk,Furniture,East,Q1,3,17100,51300,Net Banking,Vikram
+TXN0127,2026-01-30,Customer_115,Smartphone,Electronics,North,Q1,2,34500,69000,Cash,Ananya
+TXN0128,2026-01-30,Customer_231,Webcam,Accessories,South,Q1,7,4900,34300,Net Banking,Aarav
+TXN0129,2026-01-30,Customer_068,Laptop,Electronics,South,Q1,5,78700,393500,Debit Card,Aarav
+TXN0130,2026-01-30,Customer_214,Smartphone,Electronics,South,Q1,7,47100,329700,UPI,Ananya
+TXN0131,2026-01-31,Customer_006,Tablet,Electronics,West,Q1,2,28500,57000,Credit Card,Ishita
+TXN0132,2026-01-31,Customer_109,Smartphone,Electronics,Central,Q1,3,34600,103800,UPI,Aarav
+TXN0133,2026-01-31,Customer_070,Keyboard,Accessories,West,Q1,6,2300,13800,Debit Card,Neha
+TXN0134,2026-01-31,Customer_131,Desk,Furniture,East,Q1,7,19300,135100,Cash,Ananya
+TXN0135,2026-01-31,Customer_212,Desk,Furniture,West,Q1,7,20200,141400,Debit Card,Ananya
+TXN0136,2026-02-01,Customer_248,Headphones,Accessories,East,Q1,6,4200,25200,UPI,Priya
+TXN0137,2026-02-01,Customer_044,Desk,Furniture,Central,Q1,2,9800,19600,Credit Card,Neha
+TXN0138,2026-02-01,Customer_020,Monitor,Electronics,North,Q1,3,15000,45000,Net Banking,Arjun
+TXN0139,2026-02-01,Customer_038,Laptop,Electronics,Central,Q1,2,85700,171400,Debit Card,Arjun
+TXN0140,2026-02-02,Customer_161,Monitor,Electronics,South,Q1,5,23300,116500,Credit Card,Vikram
+TXN0141,2026-02-02,Customer_013,Office Chair,Furniture,South,Q1,2,27800,55600,Net Banking,Aarav
+TXN0142,2026-02-02,Customer_203,Keyboard,Accessories,East,Q1,1,4800,4800,UPI,Vikram
+TXN0143,2026-02-02,Customer_203,Smartphone,Electronics,North,Q1,6,66300,397800,Credit Card,Ananya
+TXN0144,2026-02-03,Customer_064,Tablet,Electronics,West,Q1,3,52300,156900,Cash,Ishita
+TXN0145,2026-02-03,Customer_030,Printer,Office Equipment,East,Q1,5,12400,62000,Cash,Vikram
+TXN0146,2026-02-03,Customer_154,Keyboard,Accessories,West,Q1,3,4400,13200,UPI,Vikram
+TXN0147,2026-02-03,Customer_072,Webcam,Accessories,East,Q1,1,7600,7600,Cash,Neha
+TXN0148,2026-02-03,Customer_225,Laptop,Electronics,North,Q1,7,72500,507500,UPI,Aarav
+TXN0149,2026-02-04,Customer_104,Office Chair,Furniture,East,Q1,2,18400,36800,Debit Card,Neha
+TXN0150,2026-02-04,Customer_200,Headphones,Accessories,South,Q1,3,8100,24300,Net Banking,Arjun
+TXN0151,2026-02-04,Customer_155,Laptop,Electronics,West,Q1,4,84700,338800,Cash,Neha
+TXN0152,2026-02-04,Customer_155,Printer,Office Equipment,North,Q1,1,23600,23600,Net Banking,Neha
+TXN0153,2026-02-05,Customer_074,Smartphone,Electronics,North,Q1,2,42200,84400,Cash,Arjun
+TXN0154,2026-02-05,Customer_184,Monitor,Electronics,Central,Q1,5,13200,66000,Cash,Vikram
+TXN0155,2026-02-05,Customer_155,Monitor,Electronics,East,Q1,4,29300,117200,Debit Card,Ananya
+TXN0156,2026-02-05,Customer_069,Monitor,Electronics,West,Q1,2,16300,32600,Debit Card,Neha
+TXN0157,2026-02-06,Customer_023,Webcam,Accessories,South,Q1,6,4200,25200,Debit Card,Ananya
+TXN0158,2026-02-06,Customer_210,Webcam,Accessories,North,Q1,5,3500,17500,UPI,Arjun
+TXN0159,2026-02-06,Customer_236,Desk,Furniture,West,Q1,4,15100,60400,Net Banking,Vikram
+TXN0160,2026-02-06,Customer_106,Desk,Furniture,North,Q1,5,17000,85000,Net Banking,Arjun
+TXN0161,2026-02-06,Customer_029,Webcam,Accessories,North,Q1,1,5700,5700,Debit Card,Arjun
+TXN0162,2026-02-07,Customer_090,Laptop,Electronics,West,Q1,6,64400,386400,UPI,Aarav
+TXN0163,2026-02-07,Customer_143,Headphones,Accessories,Central,Q1,7,3900,27300,UPI,Vikram
+TXN0164,2026-02-07,Customer_117,Printer,Office Equipment,South,Q1,2,25700,51400,UPI,Rahul
+TXN0165,2026-02-07,Customer_038,Monitor,Electronics,South,Q1,1,31600,31600,Credit Card,Rahul
+TXN0166,2026-02-08,Customer_171,Smartphone,Electronics,East,Q1,3,39900,119700,Net Banking,Rahul
+TXN0167,2026-02-08,Customer_199,Tablet,Electronics,West,Q1,6,24500,147000,Cash,Ishita
+TXN0168,2026-02-08,Customer_235,Laptop,Electronics,South,Q1,1,86200,86200,Net Banking,Priya
+TXN0169,2026-02-08,Customer_084,Keyboard,Accessories,North,Q1,1,2100,2100,UPI,Ananya
+TXN0170,2026-02-09,Customer_189,Headphones,Accessories,North,Q1,6,2400,14400,UPI,Ishita
+TXN0171,2026-02-09,Customer_211,Office Chair,Furniture,Central,Q1,3,11400,34200,UPI,Vikram
+TXN0172,2026-02-09,Customer_078,Desk,Furniture,East,Q1,3,6100,18300,Credit Card,Priya
+TXN0173,2026-02-09,Customer_222,Headphones,Accessories,East,Q1,4,6600,26400,Net Banking,Aarav
+TXN0174,2026-02-10,Customer_131,Desk,Furniture,South,Q1,5,6300,31500,Credit Card,Rahul
+TXN0175,2026-02-10,Customer_055,Smartphone,Electronics,West,Q1,4,59000,236000,Credit Card,Arjun
+TXN0176,2026-02-10,Customer_067,Desk,Furniture,East,Q1,1,14400,14400,Cash,Ishita
+TXN0177,2026-02-10,Customer_067,Headphones,Accessories,East,Q1,1,9900,9900,UPI,Ananya
+TXN0178,2026-02-10,Customer_088,Desk,Furniture,East,Q1,2,18700,37400,Net Banking,Ananya
+TXN0179,2026-02-11,Customer_223,Keyboard,Accessories,South,Q1,6,2200,13200,Credit Card,Arjun
+TXN0180,2026-02-11,Customer_112,Laptop,Electronics,Central,Q1,7,88900,622300,Debit Card,Ananya
+TXN0181,2026-02-11,Customer_197,Smartphone,Electronics,West,Q1,2,65100,130200,Debit Card,Priya
+TXN0182,2026-02-11,Customer_140,Smartphone,Electronics,West,Q1,3,47500,142500,Cash,Vikram
+TXN0183,2026-02-12,Customer_053,Headphones,Accessories,West,Q1,6,5300,31800,Debit Card,Ananya
+TXN0184,2026-02-12,Customer_081,Webcam,Accessories,South,Q1,6,8300,49800,Debit Card,Neha
+TXN0185,2026-02-12,Customer_209,Office Chair,Furniture,North,Q1,1,17200,17200,Credit Card,Vikram
+TXN0186,2026-02-12,Customer_022,Printer,Office Equipment,East,Q1,7,12800,89600,Net Banking,Priya
+TXN0187,2026-02-13,Customer_215,Webcam,Accessories,Central,Q1,5,3800,19000,Debit Card,Neha
+TXN0188,2026-02-13,Customer_041,Smartphone,Electronics,South,Q1,5,59800,299000,UPI,Vikram
+TXN0189,2026-02-13,Customer_087,Printer,Office Equipment,Central,Q1,6,26300,157800,Credit Card,Neha
+TXN0190,2026-02-13,Customer_134,Keyboard,Accessories,East,Q1,3,5500,16500,Credit Card,Ananya
+TXN0191,2026-02-13,Customer_173,Printer,Office Equipment,North,Q1,5,11900,59500,Credit Card,Vikram
+TXN0192,2026-02-14,Customer_054,Webcam,Accessories,East,Q1,6,2900,17400,UPI,Rahul
+TXN0193,2026-02-14,Customer_029,Keyboard,Accessories,Central,Q1,4,4900,19600,Debit Card,Ishita
+TXN0194,2026-02-14,Customer_232,Monitor,Electronics,East,Q1,1,28000,28000,Credit Card,Arjun
+TXN0195,2026-02-14,Customer_056,Desk,Furniture,North,Q1,6,7300,43800,Credit Card,Ananya
+TXN0196,2026-02-15,Customer_235,Monitor,Electronics,North,Q1,3,24900,74700,Debit Card,Vikram
+TXN0197,2026-02-15,Customer_245,Smartphone,Electronics,North,Q1,1,57400,57400,UPI,Ishita
+TXN0198,2026-02-15,Customer_171,Laptop,Electronics,South,Q1,1,74800,74800,UPI,Arjun
+TXN0199,2026-02-15,Customer_108,Tablet,Electronics,West,Q1,3,20900,62700,Debit Card,Neha
+TXN0200,2026-02-16,Customer_101,Headphones,Accessories,West,Q1,2,2600,5200,Debit Card,Rahul
+TXN0201,2026-02-16,Customer_057,Laptop,Electronics,North,Q1,5,86600,433000,Net Banking,Neha
+TXN0202,2026-02-16,Customer_149,Desk,Furniture,North,Q1,3,17400,52200,Cash,Neha
+TXN0203,2026-02-16,Customer_012,Headphones,Accessories,East,Q1,1,11000,11000,Credit Card,Aarav
+TXN0204,2026-02-16,Customer_016,Webcam,Accessories,North,Q1,7,2800,19600,Credit Card,Vikram
+TXN0205,2026-02-17,Customer_079,Headphones,Accessories,Central,Q1,2,4800,9600,UPI,Rahul
+TXN0206,2026-02-17,Customer_221,Desk,Furniture,South,Q1,2,12200,24400,Net Banking,Arjun
+TXN0207,2026-02-17,Customer_103,Tablet,Electronics,North,Q1,2,37300,74600,Debit Card,Ananya
+TXN0208,2026-02-17,Customer_168,Smartphone,Electronics,South,Q1,3,53300,159900,Net Banking,Arjun
+TXN0209,2026-02-18,Customer_214,Desk,Furniture,North,Q1,1,14200,14200,Cash,Priya
+TXN0210,2026-02-18,Customer_126,Laptop,Electronics,South,Q1,5,79600,398000,Debit Card,Priya
+TXN0211,2026-02-18,Customer_013,Smartphone,Electronics,Central,Q1,6,15000,90000,Credit Card,Ishita
+TXN0212,2026-02-18,Customer_244,Tablet,Electronics,Central,Q1,3,54900,164700,UPI,Vikram
+TXN0213,2026-02-19,Customer_184,Keyboard,Accessories,West,Q1,4,4200,16800,UPI,Priya
+TXN0214,2026-02-19,Customer_133,Printer,Office Equipment,North,Q1,7,17300,121100,UPI,Rahul
+TXN0215,2026-02-19,Customer_146,Desk,Furniture,Central,Q1,6,19500,117000,UPI,Ishita
+TXN0216,2026-02-19,Customer_073,Laptop,Electronics,North,Q1,5,94500,472500,UPI,Ishita
+TXN0217,2026-02-19,Customer_037,Monitor,Electronics,Central,Q1,4,33900,135600,Cash,Rahul
+TXN0218,2026-02-20,Customer_046,Headphones,Accessories,East,Q1,7,10700,74900,Cash,Priya
+TXN0219,2026-02-20,Customer_059,Printer,Office Equipment,West,Q1,7,29800,208600,Cash,Arjun
+TXN0220,2026-02-20,Customer_110,Headphones,Accessories,South,Q1,5,10200,51000,Debit Card,Priya
+TXN0221,2026-02-20,Customer_250,Printer,Office Equipment,East,Q1,2,8800,17600,Cash,Vikram
+TXN0222,2026-02-21,Customer_009,Headphones,Accessories,East,Q1,7,3800,26600,Net Banking,Priya
+TXN0223,2026-02-21,Customer_163,Laptop,Electronics,South,Q1,5,65400,327000,Credit Card,Neha
+TXN0224,2026-02-21,Customer_230,Laptop,Electronics,Central,Q1,3,87600,262800,Cash,Arjun
+TXN0225,2026-02-21,Customer_101,Printer,Office Equipment,South,Q1,1,27700,27700,Debit Card,Aarav
+TXN0226,2026-02-22,Customer_029,Desk,Furniture,North,Q1,3,9600,28800,Debit Card,Aarav
+TXN0227,2026-02-22,Customer_207,Smartphone,Electronics,North,Q1,4,16900,67600,Cash,Rahul
+TXN0228,2026-02-22,Customer_072,Smartphone,Electronics,East,Q1,4,35500,142000,Cash,Ishita
+TXN0229,2026-02-22,Customer_060,Webcam,Accessories,Central,Q1,2,3100,6200,Net Banking,Vikram
+TXN0230,2026-02-22,Customer_224,Laptop,Electronics,Central,Q1,2,74800,149600,Debit Card,Priya
+TXN0231,2026-02-23,Customer_205,Tablet,Electronics,Central,Q1,2,38100,76200,UPI,Neha
+TXN0232,2026-02-23,Customer_092,Desk,Furniture,North,Q1,3,19800,59400,Debit Card,Rahul
+TXN0233,2026-02-23,Customer_089,Printer,Office Equipment,Central,Q1,5,26400,132000,Credit Card,Ananya
+TXN0234,2026-02-23,Customer_235,Headphones,Accessories,Central,Q1,4,3200,12800,Credit Card,Aarav
+TXN0235,2026-02-24,Customer_138,Tablet,Electronics,East,Q1,7,48600,340200,Cash,Neha
+TXN0236,2026-02-24,Customer_002,Office Chair,Furniture,Central,Q1,7,7000,49000,Cash,Ananya
+TXN0237,2026-02-24,Customer_046,Office Chair,Furniture,East,Q1,2,13000,26000,UPI,Aarav
+TXN0238,2026-02-24,Customer_192,Laptop,Electronics,Central,Q1,7,70100,490700,Debit Card,Ishita
+TXN0239,2026-02-25,Customer_074,Headphones,Accessories,North,Q1,3,9500,28500,Credit Card,Arjun
+TXN0240,2026-02-25,Customer_148,Keyboard,Accessories,West,Q1,5,5000,25000,Credit Card,Ananya
+TXN0241,2026-02-25,Customer_138,Laptop,Electronics,North,Q1,4,57700,230800,Credit Card,Ishita
+TXN0242,2026-02-25,Customer_175,Smartphone,Electronics,Central,Q1,2,69500,139000,Net Banking,Ananya
+TXN0243,2026-02-25,Customer_007,Tablet,Electronics,Central,Q1,4,46100,184400,Debit Card,Aarav
+TXN0244,2026-02-26,Customer_179,Headphones,Accessories,East,Q1,7,6600,46200,Credit Card,Arjun
+TXN0245,2026-02-26,Customer_029,Webcam,Accessories,West,Q1,2,4600,9200,UPI,Rahul
+TXN0246,2026-02-26,Customer_029,Printer,Office Equipment,Central,Q1,7,19600,137200,Debit Card,Ananya
+TXN0247,2026-02-26,Customer_022,Smartphone,Electronics,East,Q1,7,52400,366800,Debit Card,Rahul
+TXN0248,2026-02-27,Customer_092,Laptop,Electronics,Central,Q1,6,61000,366000,Cash,Arjun
+TXN0249,2026-02-27,Customer_147,Keyboard,Accessories,North,Q1,3,5800,17400,Cash,Rahul
+TXN0250,2026-02-27,Customer_015,Laptop,Electronics,South,Q1,2,90800,181600,Cash,Rahul
+TXN0251,2026-02-27,Customer_018,Laptop,Electronics,West,Q1,1,83600,83600,Debit Card,Ishita
+TXN0252,2026-02-28,Customer_008,Printer,Office Equipment,East,Q1,1,10000,10000,Credit Card,Ananya
+TXN0253,2026-02-28,Customer_172,Office Chair,Furniture,Central,Q1,3,23700,71100,Net Banking,Priya
+TXN0254,2026-02-28,Customer_153,Tablet,Electronics,North,Q1,4,47500,190000,Net Banking,Ananya
+TXN0255,2026-02-28,Customer_249,Monitor,Electronics,West,Q1,1,15000,15000,Cash,Vikram
+TXN0256,2026-02-28,Customer_209,Smartphone,Electronics,Central,Q1,3,69100,207300,Credit Card,Neha
+TXN0257,2026-03-01,Customer_166,Smartphone,Electronics,East,Q1,6,68600,411600,Cash,Aarav
+TXN0258,2026-03-01,Customer_136,Laptop,Electronics,East,Q1,4,86200,344800,Debit Card,Ishita
+TXN0259,2026-03-01,Customer_046,Printer,Office Equipment,West,Q1,1,10300,10300,Net Banking,Aarav
+TXN0260,2026-03-01,Customer_002,Webcam,Accessories,North,Q1,2,4900,9800,UPI,Aarav
+TXN0261,2026-03-02,Customer_150,Laptop,Electronics,South,Q1,5,58100,290500,Credit Card,Neha
+TXN0262,2026-03-02,Customer_106,Webcam,Accessories,West,Q1,2,8700,17400,UPI,Ishita
+TXN0263,2026-03-02,Customer_006,Tablet,Electronics,North,Q1,3,19200,57600,UPI,Priya
+TXN0264,2026-03-02,Customer_084,Desk,Furniture,East,Q1,2,15600,31200,Debit Card,Ananya
+TXN0265,2026-03-03,Customer_154,Monitor,Electronics,East,Q1,6,30400,182400,UPI,Ananya
+TXN0266,2026-03-03,Customer_246,Webcam,Accessories,West,Q1,6,3100,18600,Net Banking,Vikram
+TXN0267,2026-03-03,Customer_147,Printer,Office Equipment,West,Q1,5,21500,107500,Cash,Ishita
+TXN0268,2026-03-03,Customer_051,Office Chair,Furniture,West,Q1,5,20800,104000,Credit Card,Neha
+TXN0269,2026-03-03,Customer_096,Smartphone,Electronics,North,Q1,3,27600,82800,Debit Card,Rahul
+TXN0270,2026-03-04,Customer_093,Webcam,Accessories,North,Q1,3,7600,22800,Net Banking,Aarav
+TXN0271,2026-03-04,Customer_024,Keyboard,Accessories,West,Q1,7,3200,22400,Cash,Ananya
+TXN0272,2026-03-04,Customer_177,Monitor,Electronics,East,Q1,4,11000,44000,UPI,Ananya
+TXN0273,2026-03-04,Customer_228,Webcam,Accessories,South,Q1,5,5500,27500,Credit Card,Ananya
+TXN0274,2026-03-05,Customer_115,Headphones,Accessories,South,Q1,7,4400,30800,Cash,Ananya
+TXN0275,2026-03-05,Customer_021,Tablet,Electronics,North,Q1,5,35200,176000,Debit Card,Priya
+TXN0276,2026-03-05,Customer_087,Desk,Furniture,South,Q1,4,20500,82000,Net Banking,Neha
+TXN0277,2026-03-05,Customer_166,Smartphone,Electronics,Central,Q1,7,37700,263900,UPI,Neha
+TXN0278,2026-03-06,Customer_014,Headphones,Accessories,North,Q1,4,5800,23200,Net Banking,Priya
+TXN0279,2026-03-06,Customer_089,Office Chair,Furniture,North,Q1,6,20700,124200,Net Banking,Priya
+TXN0280,2026-03-06,Customer_193,Tablet,Electronics,West,Q1,5,18300,91500,Net Banking,Vikram
+TXN0281,2026-03-06,Customer_010,Office Chair,Furniture,East,Q1,7,11900,83300,Credit Card,Vikram
+TXN0282,2026-03-06,Customer_001,Webcam,Accessories,Central,Q1,4,8700,34800,Net Banking,Ishita
+TXN0283,2026-03-07,Customer_212,Laptop,Electronics,West,Q1,1,61700,61700,UPI,Rahul
+TXN0284,2026-03-07,Customer_165,Keyboard,Accessories,North,Q1,7,4400,30800,UPI,Ishita
+TXN0285,2026-03-07,Customer_134,Desk,Furniture,West,Q1,4,19700,78800,Debit Card,Vikram
+TXN0286,2026-03-07,Customer_201,Monitor,Electronics,Central,Q1,2,34700,69400,Net Banking,Priya
+TXN0287,2026-03-08,Customer_229,Laptop,Electronics,Central,Q1,7,64000,448000,Debit Card,Vikram
+TXN0288,2026-03-08,Customer_012,Laptop,Electronics,South,Q1,1,78400,78400,Net Banking,Vikram
+TXN0289,2026-03-08,Customer_226,Smartphone,Electronics,North,Q1,3,15300,45900,Credit Card,Vikram
+TXN0290,2026-03-08,Customer_239,Printer,Office Equipment,East,Q1,7,18000,126000,Credit Card,Arjun
+TXN0291,2026-03-09,Customer_126,Headphones,Accessories,Central,Q1,4,2800,11200,Net Banking,Ishita
+TXN0292,2026-03-09,Customer_008,Smartphone,Electronics,South,Q1,2,55300,110600,Cash,Aarav
+TXN0293,2026-03-09,Customer_005,Office Chair,Furniture,South,Q1,5,16300,81500,UPI,Arjun
+TXN0294,2026-03-09,Customer_158,Office Chair,Furniture,South,Q1,2,14900,29800,Credit Card,Aarav
+TXN0295,2026-03-09,Customer_076,Webcam,Accessories,East,Q1,7,6800,47600,UPI,Neha
+TXN0296,2026-03-10,Customer_031,Monitor,Electronics,Central,Q1,1,25000,25000,Cash,Aarav
+TXN0297,2026-03-10,Customer_242,Webcam,Accessories,North,Q1,6,7400,44400,UPI,Aarav
+TXN0298,2026-03-10,Customer_077,Printer,Office Equipment,North,Q1,5,25200,126000,Debit Card,Ananya
+TXN0299,2026-03-10,Customer_132,Smartphone,Electronics,East,Q1,5,57100,285500,Credit Card,Priya
+TXN0300,2026-03-11,Customer_075,Printer,Office Equipment,North,Q1,7,17600,123200,UPI,Vikram
+TXN0301,2026-03-11,Customer_143,Laptop,Electronics,Central,Q1,4,79400,317600,Debit Card,Ananya
+TXN0302,2026-03-11,Customer_241,Printer,Office Equipment,East,Q1,1,13200,13200,Net Banking,Neha
+TXN0303,2026-03-11,Customer_110,Webcam,Accessories,South,Q1,3,7000,21000,Credit Card,Neha
+TXN0304,2026-03-12,Customer_072,Printer,Office Equipment,South,Q1,3,19900,59700,Net Banking,Vikram
+TXN0305,2026-03-12,Customer_226,Webcam,Accessories,Central,Q1,1,5400,5400,Net Banking,Ananya
+TXN0306,2026-03-12,Customer_108,Office Chair,Furniture,East,Q1,6,22700,136200,Debit Card,Vikram
+TXN0307,2026-03-12,Customer_080,Keyboard,Accessories,Central,Q1,7,3300,23100,Net Banking,Arjun
+TXN0308,2026-03-12,Customer_015,Printer,Office Equipment,West,Q1,4,28400,113600,Cash,Vikram
+TXN0309,2026-03-13,Customer_125,Headphones,Accessories,West,Q1,3,2600,7800,Cash,Ananya
+TXN0310,2026-03-13,Customer_146,Tablet,Electronics,South,Q1,2,40600,81200,UPI,Vikram
+TXN0311,2026-03-13,Customer_203,Monitor,Electronics,West,Q1,2,13000,26000,Credit Card,Arjun
+TXN0312,2026-03-13,Customer_170,Office Chair,Furniture,Central,Q1,7,9200,64400,Credit Card,Ishita
+TXN0313,2026-03-14,Customer_007,Monitor,Electronics,North,Q1,4,22100,88400,Net Banking,Ishita
+TXN0314,2026-03-14,Customer_119,Webcam,Accessories,Central,Q1,7,9600,67200,Net Banking,Aarav
+TXN0315,2026-03-14,Customer_216,Webcam,Accessories,South,Q1,1,7300,7300,UPI,Vikram
+TXN0316,2026-03-14,Customer_037,Webcam,Accessories,West,Q1,1,4300,4300,Credit Card,Ishita
+TXN0317,2026-03-15,Customer_202,Tablet,Electronics,North,Q1,4,33700,134800,Credit Card,Rahul
+TXN0318,2026-03-15,Customer_242,Monitor,Electronics,Central,Q1,2,21300,42600,UPI,Rahul
+TXN0319,2026-03-15,Customer_209,Smartphone,Electronics,Central,Q1,1,26900,26900,Debit Card,Ananya
+TXN0320,2026-03-15,Customer_078,Office Chair,Furniture,Central,Q1,3,11900,35700,Cash,Aarav
+TXN0321,2026-03-15,Customer_007,Printer,Office Equipment,Central,Q1,2,14000,28000,Credit Card,Rahul
+TXN0322,2026-03-16,Customer_169,Webcam,Accessories,North,Q1,6,5800,34800,Debit Card,Arjun
+TXN0323,2026-03-16,Customer_068,Desk,Furniture,South,Q1,4,18900,75600,Credit Card,Ishita
+TXN0324,2026-03-16,Customer_232,Office Chair,Furniture,Central,Q1,5,8700,43500,UPI,Ananya
+TXN0325,2026-03-16,Customer_123,Tablet,Electronics,North,Q1,1,30000,30000,Net Banking,Vikram
+TXN0326,2026-03-17,Customer_005,Laptop,Electronics,West,Q1,4,57700,230800,Debit Card,Ishita
+TXN0327,2026-03-17,Customer_067,Keyboard,Accessories,West,Q1,6,4000,24000,Cash,Priya
+TXN0328,2026-03-17,Customer_215,Tablet,Electronics,West,Q1,6,42800,256800,Credit Card,Neha
+TXN0329,2026-03-17,Customer_030,Laptop,Electronics,West,Q1,3,84200,252600,Net Banking,Priya
+TXN0330,2026-03-18,Customer_031,Monitor,Electronics,North,Q1,5,14400,72000,Credit Card,Neha
+TXN0331,2026-03-18,Customer_145,Printer,Office Equipment,West,Q1,7,24600,172200,Net Banking,Rahul
+TXN0332,2026-03-18,Customer_118,Office Chair,Furniture,Central,Q1,4,27500,110000,Net Banking,Ishita
+TXN0333,2026-03-18,Customer_030,Desk,Furniture,Central,Q1,4,9100,36400,Net Banking,Neha
+TXN0334,2026-03-19,Customer_032,Headphones,Accessories,North,Q1,2,9800,19600,Cash,Ishita
+TXN0335,2026-03-19,Customer_142,Headphones,Accessories,West,Q1,4,8900,35600,UPI,Arjun
+TXN0336,2026-03-19,Customer_085,Smartphone,Electronics,South,Q1,5,34800,174000,Debit Card,Aarav
+TXN0337,2026-03-19,Customer_180,Printer,Office Equipment,South,Q1,1,14700,14700,Net Banking,Priya
+TXN0338,2026-03-19,Customer_171,Office Chair,Furniture,West,Q1,6,26300,157800,Cash,Ananya
+TXN0339,2026-03-20,Customer_042,Webcam,Accessories,South,Q1,4,9500,38000,Cash,Rahul
+TXN0340,2026-03-20,Customer_134,Desk,Furniture,East,Q1,2,19800,39600,Net Banking,Neha
+TXN0341,2026-03-20,Customer_066,Printer,Office Equipment,East,Q1,7,16900,118300,Credit Card,Rahul
+TXN0342,2026-03-20,Customer_010,Smartphone,Electronics,North,Q1,6,68700,412200,Credit Card,Aarav
+TXN0343,2026-03-21,Customer_014,Headphones,Accessories,North,Q1,1,11200,11200,Cash,Ananya
+TXN0344,2026-03-21,Customer_025,Tablet,Electronics,Central,Q1,3,32800,98400,Cash,Priya
+TXN0345,2026-03-21,Customer_025,Desk,Furniture,West,Q1,5,5400,27000,Cash,Ananya
+TXN0346,2026-03-21,Customer_191,Monitor,Electronics,Central,Q1,2,16900,33800,Debit Card,Neha
+TXN0347,2026-03-22,Customer_031,Smartphone,Electronics,East,Q1,4,35100,140400,Cash,Rahul
+TXN0348,2026-03-22,Customer_126,Smartphone,Electronics,East,Q1,2,26600,53200,Credit Card,Vikram
+TXN0349,2026-03-22,Customer_083,Desk,Furniture,North,Q1,7,21700,151900,Debit Card,Vikram
+TXN0350,2026-03-22,Customer_115,Printer,Office Equipment,West,Q1,4,14700,58800,UPI,Ananya
+TXN0351,2026-03-22,Customer_101,Monitor,Electronics,West,Q1,7,15700,109900,Net Banking,Vikram
+TXN0352,2026-03-23,Customer_231,Monitor,Electronics,South,Q1,4,23200,92800,Cash,Ananya
+TXN0353,2026-03-23,Customer_214,Tablet,Electronics,Central,Q1,7,37400,261800,Cash,Neha
+TXN0354,2026-03-23,Customer_062,Keyboard,Accessories,East,Q1,6,2400,14400,Cash,Neha
+TXN0355,2026-03-23,Customer_215,Headphones,Accessories,South,Q1,7,7600,53200,Cash,Aarav
+TXN0356,2026-03-24,Customer_213,Keyboard,Accessories,Central,Q1,2,2400,4800,Credit Card,Vikram
+TXN0357,2026-03-24,Customer_188,Monitor,Electronics,East,Q1,1,12700,12700,Cash,Ananya
+TXN0358,2026-03-24,Customer_196,Office Chair,Furniture,South,Q1,5,17300,86500,Net Banking,Ishita
+TXN0359,2026-03-24,Customer_180,Smartphone,Electronics,Central,Q1,3,35700,107100,Credit Card,Vikram
+TXN0360,2026-03-25,Customer_192,Webcam,Accessories,North,Q1,5,3500,17500,UPI,Aarav
+TXN0361,2026-03-25,Customer_029,Laptop,Electronics,North,Q1,2,72500,145000,Credit Card,Priya
+TXN0362,2026-03-25,Customer_028,Webcam,Accessories,East,Q1,4,8400,33600,Credit Card,Ishita
+TXN0363,2026-03-25,Customer_188,Headphones,Accessories,Central,Q1,1,7900,7900,Debit Card,Vikram
+TXN0364,2026-03-25,Customer_077,Laptop,Electronics,North,Q1,7,82200,575400,Debit Card,Aarav
+TXN0365,2026-03-26,Customer_133,Tablet,Electronics,West,Q1,3,18400,55200,Cash,Ishita
+TXN0366,2026-03-26,Customer_139,Webcam,Accessories,West,Q1,7,4700,32900,Debit Card,Arjun
+TXN0367,2026-03-26,Customer_186,Tablet,Electronics,Central,Q1,4,31100,124400,Cash,Neha
+TXN0368,2026-03-26,Customer_224,Headphones,Accessories,West,Q1,2,1700,3400,UPI,Arjun
+TXN0369,2026-03-27,Customer_207,Desk,Furniture,South,Q1,1,21600,21600,Debit Card,Aarav
+TXN0370,2026-03-27,Customer_105,Monitor,Electronics,North,Q1,6,16500,99000,UPI,Priya
+TXN0371,2026-03-27,Customer_010,Office Chair,Furniture,Central,Q1,6,25800,154800,Net Banking,Ananya
+TXN0372,2026-03-27,Customer_181,Desk,Furniture,West,Q1,2,15200,30400,Credit Card,Rahul
+TXN0373,2026-03-28,Customer_146,Webcam,Accessories,North,Q1,7,3300,23100,UPI,Ishita
+TXN0374,2026-03-28,Customer_244,Webcam,Accessories,West,Q1,1,3700,3700,Cash,Ananya
+TXN0375,2026-03-28,Customer_149,Tablet,Electronics,East,Q1,6,18500,111000,Credit Card,Ishita
+TXN0376,2026-03-28,Customer_233,Office Chair,Furniture,South,Q1,7,24800,173600,Cash,Vikram
+TXN0377,2026-03-28,Customer_104,Keyboard,Accessories,West,Q1,6,5200,31200,Debit Card,Ishita
+TXN0378,2026-03-29,Customer_022,Headphones,Accessories,West,Q1,6,11800,70800,Cash,Vikram
+TXN0379,2026-03-29,Customer_207,Smartphone,Electronics,West,Q1,2,22200,44400,Debit Card,Priya
+TXN0380,2026-03-29,Customer_205,Tablet,Electronics,East,Q1,7,49100,343700,Cash,Vikram
+TXN0381,2026-03-29,Customer_019,Laptop,Electronics,Central,Q1,3,66900,200700,Net Banking,Arjun
+TXN0382,2026-03-30,Customer_106,Printer,Office Equipment,South,Q1,5,11500,57500,UPI,Ananya
+TXN0383,2026-03-30,Customer_104,Keyboard,Accessories,East,Q1,3,6000,18000,Credit Card,Priya
+TXN0384,2026-03-30,Customer_046,Printer,Office Equipment,East,Q1,2,24300,48600,Debit Card,Priya
+TXN0385,2026-03-30,Customer_164,Printer,Office Equipment,South,Q1,5,19900,99500,Credit Card,Priya
+TXN0386,2026-03-31,Customer_014,Headphones,Accessories,North,Q1,4,9300,37200,Credit Card,Vikram
+TXN0387,2026-03-31,Customer_243,Printer,Office Equipment,East,Q1,4,15200,60800,Cash,Priya
+TXN0388,2026-03-31,Customer_020,Monitor,Electronics,South,Q1,7,21200,148400,Debit Card,Priya
+TXN0389,2026-03-31,Customer_232,Keyboard,Accessories,Central,Q1,6,3200,19200,Credit Card,Neha
+TXN0390,2026-03-31,Customer_020,Monitor,Electronics,North,Q1,4,29900,119600,Net Banking,Vikram
+TXN0391,2026-04-01,Customer_055,Tablet,Electronics,West,Q2,5,39500,197500,Net Banking,Ishita
+TXN0392,2026-04-01,Customer_147,Desk,Furniture,West,Q2,2,15200,30400,Net Banking,Rahul
+TXN0393,2026-04-01,Customer_150,Laptop,Electronics,Central,Q2,7,58100,406700,Net Banking,Neha
+TXN0394,2026-04-01,Customer_100,Webcam,Accessories,East,Q2,6,4100,24600,Cash,Ananya
+TXN0395,2026-04-02,Customer_146,Office Chair,Furniture,West,Q2,1,16100,16100,UPI,Rahul
+TXN0396,2026-04-02,Customer_161,Printer,Office Equipment,North,Q2,4,14600,58400,Net Banking,Ananya
+TXN0397,2026-04-02,Customer_075,Headphones,Accessories,North,Q2,7,10300,72100,Credit Card,Ishita
+TXN0398,2026-04-02,Customer_138,Keyboard,Accessories,South,Q2,1,3900,3900,Debit Card,Vikram
+TXN0399,2026-04-03,Customer_237,Laptop,Electronics,North,Q2,6,88300,529800,Debit Card,Vikram
+TXN0400,2026-04-03,Customer_035,Tablet,Electronics,South,Q2,5,20100,100500,Debit Card,Vikram
+TXN0401,2026-04-03,Customer_074,Keyboard,Accessories,Central,Q2,4,5100,20400,Net Banking,Neha
+TXN0402,2026-04-03,Customer_039,Webcam,Accessories,South,Q2,4,2900,11600,Debit Card,Aarav
+TXN0403,2026-04-03,Customer_041,Desk,Furniture,West,Q2,1,5100,5100,Net Banking,Ananya
+TXN0404,2026-04-04,Customer_217,Printer,Office Equipment,West,Q2,7,28300,198100,Cash,Neha
+TXN0405,2026-04-04,Customer_086,Desk,Furniture,West,Q2,4,5800,23200,Debit Card,Arjun
+TXN0406,2026-04-04,Customer_182,Desk,Furniture,South,Q2,2,9600,19200,UPI,Vikram
+TXN0407,2026-04-04,Customer_228,Headphones,Accessories,East,Q2,4,3100,12400,Net Banking,Priya
+TXN0408,2026-04-05,Customer_196,Webcam,Accessories,South,Q2,3,3500,10500,UPI,Rahul
+TXN0409,2026-04-05,Customer_210,Office Chair,Furniture,East,Q2,6,25900,155400,Net Banking,Ishita
+TXN0410,2026-04-05,Customer_236,Office Chair,Furniture,North,Q2,5,8100,40500,Cash,Priya
+TXN0411,2026-04-05,Customer_087,Keyboard,Accessories,South,Q2,2,1900,3800,Cash,Ishita
+TXN0412,2026-04-06,Customer_085,Laptop,Electronics,West,Q2,3,67300,201900,UPI,Vikram
+TXN0413,2026-04-06,Customer_196,Printer,Office Equipment,South,Q2,1,11300,11300,UPI,Arjun
+TXN0414,2026-04-06,Customer_152,Headphones,Accessories,Central,Q2,7,7200,50400,Cash,Priya
+TXN0415,2026-04-06,Customer_086,Webcam,Accessories,North,Q2,3,3000,9000,UPI,Priya
+TXN0416,2026-04-06,Customer_065,Headphones,Accessories,South,Q2,6,6300,37800,Cash,Vikram
+TXN0417,2026-04-07,Customer_066,Smartphone,Electronics,South,Q2,6,61700,370200,Credit Card,Ishita
+TXN0418,2026-04-07,Customer_076,Tablet,Electronics,West,Q2,5,45700,228500,Debit Card,Priya
+TXN0419,2026-04-07,Customer_192,Tablet,Electronics,Central,Q2,3,47100,141300,Net Banking,Priya
+TXN0420,2026-04-07,Customer_143,Monitor,Electronics,Central,Q2,6,28900,173400,Net Banking,Ananya
+TXN0421,2026-04-08,Customer_113,Printer,Office Equipment,South,Q2,2,24500,49000,UPI,Ishita
+TXN0422,2026-04-08,Customer_244,Tablet,Electronics,East,Q2,4,37900,151600,Net Banking,Arjun
+TXN0423,2026-04-08,Customer_147,Printer,Office Equipment,Central,Q2,3,16400,49200,Debit Card,Rahul
+TXN0424,2026-04-08,Customer_152,Desk,Furniture,West,Q2,4,13900,55600,Net Banking,Aarav
+TXN0425,2026-04-09,Customer_055,Monitor,Electronics,North,Q2,5,25900,129500,Credit Card,Priya
+TXN0426,2026-04-09,Customer_007,Monitor,Electronics,East,Q2,6,29800,178800,Cash,Rahul
+TXN0427,2026-04-09,Customer_161,Smartphone,Electronics,West,Q2,3,69100,207300,UPI,Arjun
+TXN0428,2026-04-09,Customer_176,Desk,Furniture,East,Q2,5,17500,87500,Cash,Ananya
+TXN0429,2026-04-09,Customer_032,Headphones,Accessories,North,Q2,6,2400,14400,Net Banking,Rahul
+TXN0430,2026-04-10,Customer_119,Office Chair,Furniture,Central,Q2,1,15800,15800,Cash,Neha
+TXN0431,2026-04-10,Customer_250,Smartphone,Electronics,East,Q2,4,69800,279200,Debit Card,Vikram
+TXN0432,2026-04-10,Customer_025,Printer,Office Equipment,West,Q2,3,19600,58800,Credit Card,Priya
+TXN0433,2026-04-10,Customer_221,Keyboard,Accessories,North,Q2,3,2100,6300,Net Banking,Neha
+TXN0434,2026-04-11,Customer_172,Smartphone,Electronics,North,Q2,6,54100,324600,Debit Card,Priya
+TXN0435,2026-04-11,Customer_214,Printer,Office Equipment,East,Q2,5,13600,68000,Net Banking,Ananya
+TXN0436,2026-04-11,Customer_218,Webcam,Accessories,North,Q2,5,3300,16500,Cash,Rahul
+TXN0437,2026-04-11,Customer_175,Monitor,Electronics,South,Q2,2,18700,37400,Credit Card,Rahul
+TXN0438,2026-04-12,Customer_150,Printer,Office Equipment,North,Q2,7,21700,151900,Cash,Ananya
+TXN0439,2026-04-12,Customer_016,Tablet,Electronics,South,Q2,1,22700,22700,Credit Card,Rahul
+TXN0440,2026-04-12,Customer_198,Desk,Furniture,North,Q2,4,16600,66400,Net Banking,Ananya
+TXN0441,2026-04-12,Customer_191,Laptop,Electronics,East,Q2,7,66200,463400,Net Banking,Priya
+TXN0442,2026-04-12,Customer_191,Printer,Office Equipment,Central,Q2,7,14700,102900,Debit Card,Aarav
+TXN0443,2026-04-13,Customer_142,Keyboard,Accessories,West,Q2,5,4300,21500,Net Banking,Aarav
+TXN0444,2026-04-13,Customer_077,Office Chair,Furniture,South,Q2,1,23600,23600,Debit Card,Aarav
+TXN0445,2026-04-13,Customer_187,Headphones,Accessories,East,Q2,3,1500,4500,Credit Card,Ishita
+TXN0446,2026-04-13,Customer_072,Headphones,Accessories,East,Q2,6,10600,63600,Debit Card,Neha
+TXN0447,2026-04-14,Customer_088,Monitor,Electronics,South,Q2,1,11100,11100,UPI,Rahul
+TXN0448,2026-04-14,Customer_201,Tablet,Electronics,West,Q2,3,45900,137700,Net Banking,Vikram
+TXN0449,2026-04-14,Customer_124,Office Chair,Furniture,North,Q2,6,22300,133800,Net Banking,Rahul
+TXN0450,2026-04-14,Customer_181,Monitor,Electronics,Central,Q2,6,15500,93000,Net Banking,Ishita
+TXN0451,2026-04-15,Customer_161,Laptop,Electronics,West,Q2,6,56800,340800,UPI,Neha
+TXN0452,2026-04-15,Customer_078,Keyboard,Accessories,North,Q2,3,2300,6900,Net Banking,Rahul
+TXN0453,2026-04-15,Customer_105,Monitor,Electronics,Central,Q2,4,31300,125200,UPI,Ishita
+TXN0454,2026-04-15,Customer_176,Office Chair,Furniture,West,Q2,5,24600,123000,Debit Card,Rahul
+TXN0455,2026-04-15,Customer_069,Smartphone,Electronics,West,Q2,5,43700,218500,Cash,Rahul
+TXN0456,2026-04-16,Customer_189,Laptop,Electronics,North,Q2,5,58800,294000,Net Banking,Rahul
+TXN0457,2026-04-16,Customer_065,Laptop,Electronics,Central,Q2,2,90200,180400,Net Banking,Neha
+TXN0458,2026-04-16,Customer_093,Printer,Office Equipment,Central,Q2,3,27600,82800,Debit Card,Neha
+TXN0459,2026-04-16,Customer_132,Monitor,Electronics,West,Q2,1,27600,27600,Net Banking,Ananya
+TXN0460,2026-04-17,Customer_086,Headphones,Accessories,West,Q2,4,6600,26400,Credit Card,Ishita
+TXN0461,2026-04-17,Customer_001,Smartphone,Electronics,North,Q2,3,55900,167700,Credit Card,Aarav
+TXN0462,2026-04-17,Customer_211,Headphones,Accessories,West,Q2,2,11000,22000,Credit Card,Aarav
+TXN0463,2026-04-17,Customer_099,Printer,Office Equipment,East,Q2,5,18400,92000,Cash,Ananya
+TXN0464,2026-04-18,Customer_230,Desk,Furniture,North,Q2,1,13800,13800,UPI,Neha
+TXN0465,2026-04-18,Customer_097,Desk,Furniture,South,Q2,3,19300,57900,Cash,Vikram
+TXN0466,2026-04-18,Customer_054,Laptop,Electronics,North,Q2,6,70900,425400,UPI,Ishita
+TXN0467,2026-04-18,Customer_088,Keyboard,Accessories,Central,Q2,1,4200,4200,Debit Card,Rahul
+TXN0468,2026-04-18,Customer_141,Office Chair,Furniture,East,Q2,7,25400,177800,Debit Card,Rahul
+TXN0469,2026-04-19,Customer_072,Laptop,Electronics,Central,Q2,4,84200,336800,Cash,Vikram
+TXN0470,2026-04-19,Customer_220,Laptop,Electronics,South,Q2,5,83700,418500,Cash,Ishita
+TXN0471,2026-04-19,Customer_158,Printer,Office Equipment,Central,Q2,3,8000,24000,UPI,Arjun
+TXN0472,2026-04-19,Customer_068,Monitor,Electronics,North,Q2,2,16400,32800,Net Banking,Priya
+TXN0473,2026-04-20,Customer_168,Keyboard,Accessories,West,Q2,3,4100,12300,UPI,Aarav
+TXN0474,2026-04-20,Customer_167,Webcam,Accessories,South,Q2,3,5200,15600,Cash,Aarav
+TXN0475,2026-04-20,Customer_205,Webcam,Accessories,South,Q2,2,9200,18400,Credit Card,Rahul
+TXN0476,2026-04-20,Customer_028,Headphones,Accessories,East,Q2,1,7900,7900,Net Banking,Neha
+TXN0477,2026-04-21,Customer_131,Keyboard,Accessories,South,Q2,2,3700,7400,UPI,Aarav
+TXN0478,2026-04-21,Customer_045,Tablet,Electronics,South,Q2,3,36000,108000,Cash,Vikram
+TXN0479,2026-04-21,Customer_023,Laptop,Electronics,North,Q2,7,68700,480900,Net Banking,Vikram
+TXN0480,2026-04-21,Customer_099,Headphones,Accessories,Central,Q2,3,6000,18000,UPI,Vikram
+TXN0481,2026-04-21,Customer_108,Headphones,Accessories,South,Q2,2,7700,15400,Debit Card,Rahul
+TXN0482,2026-04-22,Customer_075,Printer,Office Equipment,South,Q2,7,10200,71400,Debit Card,Aarav
+TXN0483,2026-04-22,Customer_152,Headphones,Accessories,South,Q2,4,5600,22400,Net Banking,Vikram
+TXN0484,2026-04-22,Customer_065,Office Chair,Furniture,North,Q2,4,7900,31600,Net Banking,Rahul
+TXN0485,2026-04-22,Customer_163,Webcam,Accessories,East,Q2,4,5300,21200,Debit Card,Neha
+TXN0486,2026-04-23,Customer_069,Laptop,Electronics,South,Q2,1,82100,82100,Net Banking,Ishita
+TXN0487,2026-04-23,Customer_113,Headphones,Accessories,Central,Q2,1,2600,2600,Credit Card,Vikram
+TXN0488,2026-04-23,Customer_045,Desk,Furniture,West,Q2,3,14000,42000,Credit Card,Rahul
+TXN0489,2026-04-23,Customer_234,Headphones,Accessories,East,Q2,3,5600,16800,Credit Card,Neha
+TXN0490,2026-04-24,Customer_122,Keyboard,Accessories,Central,Q2,6,1800,10800,Cash,Priya
+TXN0491,2026-04-24,Customer_196,Keyboard,Accessories,South,Q2,3,5500,16500,Net Banking,Aarav
+TXN0492,2026-04-24,Customer_175,Laptop,Electronics,West,Q2,5,66500,332500,UPI,Vikram
+TXN0493,2026-04-24,Customer_233,Headphones,Accessories,North,Q2,4,11800,47200,Cash,Priya
+TXN0494,2026-04-24,Customer_179,Headphones,Accessories,East,Q2,5,10300,51500,Credit Card,Priya
+TXN0495,2026-04-25,Customer_174,Tablet,Electronics,West,Q2,2,20100,40200,Cash,Ananya
+TXN0496,2026-04-25,Customer_092,Office Chair,Furniture,Central,Q2,4,14300,57200,Debit Card,Vikram
+TXN0497,2026-04-25,Customer_017,Smartphone,Electronics,East,Q2,3,26400,79200,Net Banking,Priya
+TXN0498,2026-04-25,Customer_250,Desk,Furniture,East,Q2,6,14700,88200,Cash,Arjun
+TXN0499,2026-04-26,Customer_101,Keyboard,Accessories,West,Q2,4,5300,21200,Debit Card,Arjun
+TXN0500,2026-04-26,Customer_173,Keyboard,Accessories,West,Q2,2,4700,9400,Cash,Neha
+TXN0501,2026-04-26,Customer_184,Office Chair,Furniture,West,Q2,4,8200,32800,UPI,Neha
+TXN0502,2026-04-26,Customer_115,Webcam,Accessories,East,Q2,4,9800,39200,Credit Card,Ishita
+TXN0503,2026-04-27,Customer_250,Monitor,Electronics,West,Q2,6,24700,148200,Debit Card,Aarav
+TXN0504,2026-04-27,Customer_203,Desk,Furniture,North,Q2,7,11600,81200,Debit Card,Priya
+TXN0505,2026-04-27,Customer_219,Laptop,Electronics,South,Q2,3,90800,272400,Net Banking,Rahul
+TXN0506,2026-04-27,Customer_048,Monitor,Electronics,North,Q2,7,33900,237300,Net Banking,Vikram
+TXN0507,2026-04-28,Customer_096,Laptop,Electronics,East,Q2,1,88900,88900,Debit Card,Rahul
+TXN0508,2026-04-28,Customer_189,Keyboard,Accessories,South,Q2,5,5900,29500,Cash,Neha
+TXN0509,2026-04-28,Customer_064,Tablet,Electronics,Central,Q2,6,37500,225000,Net Banking,Priya
+TXN0510,2026-04-28,Customer_057,Printer,Office Equipment,East,Q2,3,12600,37800,Debit Card,Priya
+TXN0511,2026-04-28,Customer_071,Desk,Furniture,East,Q2,2,19100,38200,UPI,Ananya
+TXN0512,2026-04-29,Customer_037,Printer,Office Equipment,Central,Q2,5,24300,121500,Cash,Ananya
+TXN0513,2026-04-29,Customer_035,Printer,Office Equipment,South,Q2,7,27500,192500,UPI,Priya
+TXN0514,2026-04-29,Customer_075,Monitor,Electronics,East,Q2,6,10600,63600,Debit Card,Neha
+TXN0515,2026-04-29,Customer_123,Smartphone,Electronics,South,Q2,5,67500,337500,UPI,Arjun
+TXN0516,2026-04-30,Customer_102,Smartphone,Electronics,West,Q2,2,28300,56600,Credit Card,Priya
+TXN0517,2026-04-30,Customer_159,Webcam,Accessories,West,Q2,5,7500,37500,Credit Card,Arjun
+TXN0518,2026-04-30,Customer_126,Tablet,Electronics,East,Q2,7,52400,366800,Cash,Arjun
+TXN0519,2026-04-30,Customer_233,Keyboard,Accessories,Central,Q2,7,2300,16100,Cash,Vikram
+TXN0520,2026-05-01,Customer_025,Tablet,Electronics,North,Q2,5,33400,167000,Credit Card,Priya
+TXN0521,2026-05-01,Customer_160,Monitor,Electronics,South,Q2,6,11800,70800,Credit Card,Ananya
+TXN0522,2026-05-01,Customer_022,Monitor,Electronics,West,Q2,5,30100,150500,Cash,Rahul
+TXN0523,2026-05-01,Customer_159,Office Chair,Furniture,South,Q2,2,15400,30800,Credit Card,Ishita
+TXN0524,2026-05-01,Customer_204,Smartphone,Electronics,North,Q2,7,18000,126000,UPI,Arjun
+TXN0525,2026-05-02,Customer_018,Laptop,Electronics,North,Q2,2,86300,172600,Credit Card,Ishita
+TXN0526,2026-05-02,Customer_121,Printer,Office Equipment,Central,Q2,6,13400,80400,Net Banking,Rahul
+TXN0527,2026-05-02,Customer_137,Printer,Office Equipment,East,Q2,1,10900,10900,Credit Card,Ananya
+TXN0528,2026-05-02,Customer_051,Monitor,Electronics,Central,Q2,4,32700,130800,Debit Card,Aarav
+TXN0529,2026-05-03,Customer_145,Headphones,Accessories,South,Q2,4,8600,34400,Credit Card,Vikram
+TXN0530,2026-05-03,Customer_120,Laptop,Electronics,South,Q2,4,80300,321200,Cash,Vikram
+TXN0531,2026-05-03,Customer_011,Keyboard,Accessories,North,Q2,1,2500,2500,Net Banking,Arjun
+TXN0532,2026-05-03,Customer_084,Printer,Office Equipment,East,Q2,6,13900,83400,Debit Card,Ananya
+TXN0533,2026-05-04,Customer_246,Keyboard,Accessories,West,Q2,2,1700,3400,UPI,Rahul
+TXN0534,2026-05-04,Customer_105,Smartphone,Electronics,West,Q2,6,57400,344400,UPI,Vikram
+TXN0535,2026-05-04,Customer_031,Smartphone,Electronics,South,Q2,5,60200,301000,UPI,Aarav
+TXN0536,2026-05-04,Customer_214,Headphones,Accessories,North,Q2,3,9200,27600,Net Banking,Vikram
+TXN0537,2026-05-04,Customer_137,Office Chair,Furniture,West,Q2,5,7800,39000,Credit Card,Rahul
+TXN0538,2026-05-05,Customer_028,Headphones,Accessories,North,Q2,4,2000,8000,Net Banking,Vikram
+TXN0539,2026-05-05,Customer_118,Tablet,Electronics,South,Q2,5,20100,100500,Cash,Ananya
+TXN0540,2026-05-05,Customer_165,Keyboard,Accessories,South,Q2,2,1300,2600,UPI,Ananya
+TXN0541,2026-05-05,Customer_111,Webcam,Accessories,North,Q2,3,6200,18600,Net Banking,Neha
+TXN0542,2026-05-06,Customer_228,Monitor,Electronics,South,Q2,5,21600,108000,Net Banking,Priya
+TXN0543,2026-05-06,Customer_156,Headphones,Accessories,North,Q2,1,4800,4800,Net Banking,Priya
+TXN0544,2026-05-06,Customer_175,Headphones,Accessories,North,Q2,5,2300,11500,Credit Card,Vikram
+TXN0545,2026-05-06,Customer_245,Headphones,Accessories,North,Q2,7,1700,11900,UPI,Arjun
+TXN0546,2026-05-07,Customer_126,Webcam,Accessories,West,Q2,7,5100,35700,Debit Card,Vikram
+TXN0547,2026-05-07,Customer_111,Monitor,Electronics,East,Q2,5,34400,172000,UPI,Ishita
+TXN0548,2026-05-07,Customer_248,Desk,Furniture,Central,Q2,1,15300,15300,Debit Card,Ananya
+TXN0549,2026-05-07,Customer_157,Desk,Furniture,South,Q2,3,17100,51300,Credit Card,Ananya
+TXN0550,2026-05-07,Customer_090,Office Chair,Furniture,North,Q2,4,8200,32800,Cash,Ishita
+TXN0551,2026-05-08,Customer_032,Monitor,Electronics,West,Q2,2,26100,52200,UPI,Aarav
+TXN0552,2026-05-08,Customer_185,Webcam,Accessories,South,Q2,4,7100,28400,UPI,Priya
+TXN0553,2026-05-08,Customer_200,Tablet,Electronics,West,Q2,3,54300,162900,Net Banking,Rahul
+TXN0554,2026-05-08,Customer_102,Laptop,Electronics,West,Q2,1,92900,92900,UPI,Arjun
+TXN0555,2026-05-09,Customer_241,Printer,Office Equipment,South,Q2,6,9400,56400,Cash,Ananya
+TXN0556,2026-05-09,Customer_054,Monitor,Electronics,North,Q2,1,21200,21200,Credit Card,Neha
+TXN0557,2026-05-09,Customer_122,Smartphone,Electronics,Central,Q2,7,34500,241500,Cash,Neha
+TXN0558,2026-05-09,Customer_210,Headphones,Accessories,South,Q2,6,10000,60000,Cash,Arjun
+TXN0559,2026-05-10,Customer_008,Tablet,Electronics,West,Q2,6,50000,300000,Cash,Rahul
+TXN0560,2026-05-10,Customer_077,Laptop,Electronics,South,Q2,1,94200,94200,Debit Card,Arjun
+TXN0561,2026-05-10,Customer_099,Headphones,Accessories,West,Q2,1,3600,3600,Debit Card,Priya
+TXN0562,2026-05-10,Customer_089,Printer,Office Equipment,South,Q2,4,13700,54800,Debit Card,Arjun
+TXN0563,2026-05-10,Customer_154,Office Chair,Furniture,West,Q2,6,20100,120600,Net Banking,Rahul
+TXN0564,2026-05-11,Customer_245,Smartphone,Electronics,South,Q2,1,67800,67800,Credit Card,Arjun
+TXN0565,2026-05-11,Customer_222,Desk,Furniture,West,Q2,5,19500,97500,UPI,Rahul
+TXN0566,2026-05-11,Customer_088,Office Chair,Furniture,South,Q2,1,10400,10400,Cash,Neha
+TXN0567,2026-05-11,Customer_101,Printer,Office Equipment,West,Q2,5,8200,41000,Net Banking,Priya
+TXN0568,2026-05-12,Customer_066,Keyboard,Accessories,East,Q2,2,2700,5400,Cash,Rahul
+TXN0569,2026-05-12,Customer_141,Printer,Office Equipment,Central,Q2,5,18600,93000,Credit Card,Ananya
+TXN0570,2026-05-12,Customer_155,Printer,Office Equipment,South,Q2,6,16800,100800,Debit Card,Aarav
+TXN0571,2026-05-12,Customer_067,Printer,Office Equipment,West,Q2,5,18600,93000,Net Banking,Vikram
+TXN0572,2026-05-13,Customer_091,Tablet,Electronics,South,Q2,3,53200,159600,UPI,Priya
+TXN0573,2026-05-13,Customer_091,Monitor,Electronics,South,Q2,5,24100,120500,Net Banking,Aarav
+TXN0574,2026-05-13,Customer_109,Smartphone,Electronics,West,Q2,1,25500,25500,Net Banking,Arjun
+TXN0575,2026-05-13,Customer_105,Webcam,Accessories,Central,Q2,3,4200,12600,Credit Card,Aarav
+TXN0576,2026-05-13,Customer_237,Laptop,Electronics,North,Q2,6,89700,538200,Cash,Ananya
+TXN0577,2026-05-14,Customer_149,Keyboard,Accessories,East,Q2,3,3900,11700,Net Banking,Priya
+TXN0578,2026-05-14,Customer_199,Tablet,Electronics,South,Q2,3,23300,69900,Cash,Vikram
+TXN0579,2026-05-14,Customer_143,Monitor,Electronics,South,Q2,7,21900,153300,Net Banking,Vikram
+TXN0580,2026-05-14,Customer_112,Desk,Furniture,West,Q2,1,10000,10000,UPI,Rahul
+TXN0581,2026-05-15,Customer_165,Monitor,Electronics,North,Q2,2,33500,67000,Debit Card,Arjun
+TXN0582,2026-05-15,Customer_189,Desk,Furniture,West,Q2,3,19200,57600,Credit Card,Vikram
+TXN0583,2026-05-15,Customer_034,Desk,Furniture,North,Q2,2,19000,38000,UPI,Arjun
+TXN0584,2026-05-15,Customer_069,Keyboard,Accessories,Central,Q2,4,3200,12800,UPI,Aarav
+TXN0585,2026-05-16,Customer_101,Printer,Office Equipment,North,Q2,4,19500,78000,Credit Card,Ishita
+TXN0586,2026-05-16,Customer_061,Office Chair,Furniture,West,Q2,7,13400,93800,Debit Card,Ishita
+TXN0587,2026-05-16,Customer_220,Tablet,Electronics,West,Q2,6,45000,270000,Debit Card,Arjun
+TXN0588,2026-05-16,Customer_141,Monitor,Electronics,South,Q2,7,20400,142800,Credit Card,Neha
+TXN0589,2026-05-16,Customer_179,Keyboard,Accessories,North,Q2,1,2400,2400,Debit Card,Arjun
+TXN0590,2026-05-17,Customer_248,Headphones,Accessories,Central,Q2,4,11800,47200,Cash,Ishita
+TXN0591,2026-05-17,Customer_170,Laptop,Electronics,South,Q2,3,71600,214800,Debit Card,Priya
+TXN0592,2026-05-17,Customer_010,Printer,Office Equipment,North,Q2,1,28900,28900,UPI,Ananya
+TXN0593,2026-05-17,Customer_149,Monitor,Electronics,Central,Q2,7,27900,195300,UPI,Aarav
+TXN0594,2026-05-18,Customer_233,Printer,Office Equipment,South,Q2,3,16100,48300,Debit Card,Neha
+TXN0595,2026-05-18,Customer_167,Laptop,Electronics,Central,Q2,7,82800,579600,UPI,Aarav
+TXN0596,2026-05-18,Customer_073,Smartphone,Electronics,Central,Q2,3,17900,53700,Net Banking,Ananya
+TXN0597,2026-05-18,Customer_049,Keyboard,Accessories,West,Q2,3,1800,5400,Cash,Arjun
+TXN0598,2026-05-19,Customer_015,Laptop,Electronics,West,Q2,1,70200,70200,Net Banking,Priya
+TXN0599,2026-05-19,Customer_163,Laptop,Electronics,South,Q2,3,86300,258900,UPI,Neha
+TXN0600,2026-05-19,Customer_216,Smartphone,Electronics,East,Q2,5,20400,102000,Cash,Rahul
+TXN0601,2026-05-19,Customer_168,Headphones,Accessories,East,Q2,1,7100,7100,Cash,Aarav
+TXN0602,2026-05-19,Customer_232,Keyboard,Accessories,Central,Q2,3,3500,10500,Debit Card,Rahul
+TXN0603,2026-05-20,Customer_196,Webcam,Accessories,West,Q2,1,3700,3700,Credit Card,Ishita
+TXN0604,2026-05-20,Customer_072,Headphones,Accessories,East,Q2,3,6800,20400,Credit Card,Ishita
+TXN0605,2026-05-20,Customer_244,Office Chair,Furniture,West,Q2,3,20200,60600,UPI,Aarav
+TXN0606,2026-05-20,Customer_140,Keyboard,Accessories,North,Q2,3,2100,6300,UPI,Vikram
+TXN0607,2026-05-21,Customer_118,Printer,Office Equipment,East,Q2,4,16900,67600,UPI,Neha
+TXN0608,2026-05-21,Customer_197,Smartphone,Electronics,East,Q2,1,52700,52700,Credit Card,Neha
+TXN0609,2026-05-21,Customer_084,Office Chair,Furniture,East,Q2,4,27600,110400,Cash,Ishita
+TXN0610,2026-05-21,Customer_063,Monitor,Electronics,South,Q2,5,18100,90500,UPI,Aarav
+TXN0611,2026-05-22,Customer_202,Desk,Furniture,North,Q2,2,12700,25400,Credit Card,Neha
+TXN0612,2026-05-22,Customer_169,Webcam,Accessories,Central,Q2,5,9800,49000,Credit Card,Priya
+TXN0613,2026-05-22,Customer_177,Monitor,Electronics,West,Q2,1,15100,15100,Debit Card,Rahul
+TXN0614,2026-05-22,Customer_208,Webcam,Accessories,South,Q2,2,6100,12200,Net Banking,Ishita
+TXN0615,2026-05-22,Customer_171,Webcam,Accessories,East,Q2,6,9800,58800,Cash,Arjun
+TXN0616,2026-05-23,Customer_182,Headphones,Accessories,West,Q2,4,4600,18400,Net Banking,Rahul
+TXN0617,2026-05-23,Customer_158,Monitor,Electronics,Central,Q2,3,26200,78600,Credit Card,Neha
+TXN0618,2026-05-23,Customer_010,Tablet,Electronics,North,Q2,6,27300,163800,UPI,Ishita
+TXN0619,2026-05-23,Customer_059,Headphones,Accessories,West,Q2,1,7000,7000,Credit Card,Vikram
+TXN0620,2026-05-24,Customer_217,Monitor,Electronics,South,Q2,1,12900,12900,Cash,Arjun
+TXN0621,2026-05-24,Customer_123,Headphones,Accessories,West,Q2,3,10800,32400,Credit Card,Neha
+TXN0622,2026-05-24,Customer_113,Printer,Office Equipment,Central,Q2,5,17000,85000,Net Banking,Arjun
+TXN0623,2026-05-24,Customer_129,Laptop,Electronics,South,Q2,1,73000,73000,Net Banking,Aarav
+TXN0624,2026-05-25,Customer_145,Webcam,Accessories,South,Q2,6,9800,58800,Credit Card,Rahul
+TXN0625,2026-05-25,Customer_085,Headphones,Accessories,North,Q2,2,2500,5000,Net Banking,Arjun
+TXN0626,2026-05-25,Customer_155,Monitor,Electronics,South,Q2,5,22800,114000,Debit Card,Ishita
+TXN0627,2026-05-25,Customer_170,Laptop,Electronics,South,Q2,3,80500,241500,Net Banking,Vikram
+TXN0628,2026-05-25,Customer_151,Desk,Furniture,West,Q2,7,8400,58800,UPI,Aarav
+TXN0629,2026-05-26,Customer_040,Keyboard,Accessories,East,Q2,3,2400,7200,Cash,Priya
+TXN0630,2026-05-26,Customer_075,Tablet,Electronics,South,Q2,6,40400,242400,Credit Card,Priya
+TXN0631,2026-05-26,Customer_187,Headphones,Accessories,Central,Q2,7,10100,70700,Debit Card,Priya
+TXN0632,2026-05-26,Customer_091,Headphones,Accessories,East,Q2,1,4200,4200,Credit Card,Aarav
+TXN0633,2026-05-27,Customer_089,Printer,Office Equipment,North,Q2,5,20900,104500,Net Banking,Ananya
+TXN0634,2026-05-27,Customer_082,Laptop,Electronics,East,Q2,6,89400,536400,Cash,Priya
+TXN0635,2026-05-27,Customer_230,Webcam,Accessories,South,Q2,3,7300,21900,Net Banking,Priya
+TXN0636,2026-05-27,Customer_098,Keyboard,Accessories,East,Q2,7,1500,10500,Credit Card,Aarav
+TXN0637,2026-05-28,Customer_061,Monitor,Electronics,East,Q2,6,22600,135600,Net Banking,Ananya
+TXN0638,2026-05-28,Customer_166,Laptop,Electronics,South,Q2,7,83500,584500,UPI,Aarav
+TXN0639,2026-05-28,Customer_157,Headphones,Accessories,Central,Q2,6,2700,16200,UPI,Priya
+TXN0640,2026-05-28,Customer_109,Keyboard,Accessories,West,Q2,2,5400,10800,Debit Card,Rahul
+TXN0641,2026-05-28,Customer_140,Monitor,Electronics,West,Q2,5,10200,51000,Debit Card,Ishita
+TXN0642,2026-05-29,Customer_061,Webcam,Accessories,South,Q2,7,4400,30800,Net Banking,Ishita
+TXN0643,2026-05-29,Customer_032,Printer,Office Equipment,Central,Q2,5,14800,74000,Net Banking,Neha
+TXN0644,2026-05-29,Customer_039,Webcam,Accessories,North,Q2,1,6300,6300,UPI,Vikram
+TXN0645,2026-05-29,Customer_035,Printer,Office Equipment,North,Q2,6,20200,121200,Cash,Priya
+TXN0646,2026-05-30,Customer_208,Office Chair,Furniture,East,Q2,1,14200,14200,UPI,Arjun
+TXN0647,2026-05-30,Customer_165,Headphones,Accessories,Central,Q2,1,3200,3200,Net Banking,Arjun
+TXN0648,2026-05-30,Customer_104,Office Chair,Furniture,Central,Q2,5,10500,52500,Credit Card,Vikram
+TXN0649,2026-05-30,Customer_150,Headphones,Accessories,North,Q2,4,6900,27600,UPI,Neha
+TXN0650,2026-05-31,Customer_138,Webcam,Accessories,West,Q2,3,4300,12900,Debit Card,Ananya
+TXN0651,2026-05-31,Customer_011,Smartphone,Electronics,East,Q2,1,26700,26700,Net Banking,Ishita
+TXN0652,2026-05-31,Customer_175,Desk,Furniture,North,Q2,3,14500,43500,UPI,Rahul
+TXN0653,2026-05-31,Customer_234,Tablet,Electronics,North,Q2,2,33200,66400,Cash,Priya
+TXN0654,2026-05-31,Customer_129,Smartphone,Electronics,South,Q2,3,45100,135300,Cash,Ishita
+TXN0655,2026-06-01,Customer_157,Laptop,Electronics,South,Q2,5,59700,298500,UPI,Arjun
+TXN0656,2026-06-01,Customer_007,Keyboard,Accessories,South,Q2,2,5500,11000,UPI,Arjun
+TXN0657,2026-06-01,Customer_017,Keyboard,Accessories,East,Q2,1,1300,1300,UPI,Rahul
+TXN0658,2026-06-01,Customer_235,Tablet,Electronics,South,Q2,7,50800,355600,Net Banking,Ishita
+TXN0659,2026-06-02,Customer_120,Printer,Office Equipment,North,Q2,6,23900,143400,Cash,Aarav
+TXN0660,2026-06-02,Customer_179,Headphones,Accessories,North,Q2,1,6600,6600,Cash,Rahul
+TXN0661,2026-06-02,Customer_015,Tablet,Electronics,East,Q2,2,33000,66000,Debit Card,Vikram
+TXN0662,2026-06-02,Customer_048,Printer,Office Equipment,South,Q2,2,27800,55600,Net Banking,Arjun
+TXN0663,2026-06-03,Customer_116,Printer,Office Equipment,North,Q2,4,26700,106800,UPI,Vikram
+TXN0664,2026-06-03,Customer_246,Smartphone,Electronics,West,Q2,2,43200,86400,Cash,Rahul
+TXN0665,2026-06-03,Customer_003,Webcam,Accessories,East,Q2,5,5800,29000,Net Banking,Rahul
+TXN0666,2026-06-03,Customer_107,Monitor,Electronics,East,Q2,3,26400,79200,Debit Card,Priya
+TXN0667,2026-06-04,Customer_124,Laptop,Electronics,South,Q2,1,55200,55200,Cash,Ishita
+TXN0668,2026-06-04,Customer_250,Printer,Office Equipment,South,Q2,4,24900,99600,Cash,Ishita
+TXN0669,2026-06-04,Customer_099,Office Chair,Furniture,Central,Q2,2,22900,45800,Debit Card,Ishita
+TXN0670,2026-06-04,Customer_220,Office Chair,Furniture,Central,Q2,4,11100,44400,Credit Card,Aarav
+TXN0671,2026-06-04,Customer_064,Office Chair,Furniture,South,Q2,7,19500,136500,Net Banking,Priya
+TXN0672,2026-06-05,Customer_170,Keyboard,Accessories,West,Q2,5,4200,21000,Credit Card,Vikram
+TXN0673,2026-06-05,Customer_237,Headphones,Accessories,East,Q2,3,3400,10200,Credit Card,Neha
+TXN0674,2026-06-05,Customer_080,Webcam,Accessories,North,Q2,4,8100,32400,Credit Card,Priya
+TXN0675,2026-06-05,Customer_023,Smartphone,Electronics,South,Q2,4,39400,157600,UPI,Ishita
+TXN0676,2026-06-06,Customer_166,Headphones,Accessories,East,Q2,1,4300,4300,Cash,Aarav
+TXN0677,2026-06-06,Customer_155,Keyboard,Accessories,West,Q2,2,2500,5000,Credit Card,Arjun
+TXN0678,2026-06-06,Customer_224,Keyboard,Accessories,West,Q2,7,5100,35700,Credit Card,Vikram
+TXN0679,2026-06-06,Customer_136,Monitor,Electronics,North,Q2,4,13800,55200,Cash,Arjun
+TXN0680,2026-06-07,Customer_096,Headphones,Accessories,East,Q2,6,5900,35400,Cash,Ananya
+TXN0681,2026-06-07,Customer_134,Desk,Furniture,North,Q2,6,16300,97800,Debit Card,Ishita
+TXN0682,2026-06-07,Customer_104,Desk,Furniture,Central,Q2,7,20300,142100,Credit Card,Priya
+TXN0683,2026-06-07,Customer_125,Desk,Furniture,East,Q2,3,18800,56400,Net Banking,Ananya
+TXN0684,2026-06-07,Customer_163,Webcam,Accessories,Central,Q2,3,10000,30000,Cash,Aarav
+TXN0685,2026-06-08,Customer_149,Tablet,Electronics,East,Q2,4,51000,204000,Debit Card,Neha
+TXN0686,2026-06-08,Customer_159,Keyboard,Accessories,South,Q2,3,1300,3900,UPI,Ishita
+TXN0687,2026-06-08,Customer_235,Monitor,Electronics,South,Q2,7,30900,216300,Debit Card,Rahul
+TXN0688,2026-06-08,Customer_083,Keyboard,Accessories,North,Q2,5,3100,15500,Net Banking,Vikram
+TXN0689,2026-06-09,Customer_061,Tablet,Electronics,East,Q2,3,43000,129000,UPI,Ananya
+TXN0690,2026-06-09,Customer_110,Tablet,Electronics,South,Q2,7,52300,366100,Net Banking,Vikram
+TXN0691,2026-06-09,Customer_050,Keyboard,Accessories,West,Q2,3,3300,9900,UPI,Priya
+TXN0692,2026-06-09,Customer_203,Monitor,Electronics,East,Q2,6,24800,148800,Cash,Priya
+TXN0693,2026-06-10,Customer_215,Office Chair,Furniture,East,Q2,6,14800,88800,Cash,Ananya
+TXN0694,2026-06-10,Customer_089,Keyboard,Accessories,North,Q2,7,4500,31500,Credit Card,Neha
+TXN0695,2026-06-10,Customer_004,Tablet,Electronics,North,Q2,1,41500,41500,Net Banking,Neha
+TXN0696,2026-06-10,Customer_093,Headphones,Accessories,South,Q2,2,8500,17000,Net Banking,Priya
+TXN0697,2026-06-10,Customer_207,Laptop,Electronics,West,Q2,7,61900,433300,Net Banking,Neha
+TXN0698,2026-06-11,Customer_090,Headphones,Accessories,Central,Q2,3,8200,24600,Cash,Priya
+TXN0699,2026-06-11,Customer_036,Keyboard,Accessories,South,Q2,1,2500,2500,Debit Card,Ishita
+TXN0700,2026-06-11,Customer_008,Desk,Furniture,Central,Q2,3,5900,17700,Credit Card,Neha
+TXN0701,2026-06-11,Customer_144,Laptop,Electronics,East,Q2,4,90200,360800,Cash,Rahul
+TXN0702,2026-06-12,Customer_088,Desk,Furniture,North,Q2,3,17500,52500,Debit Card,Rahul
+TXN0703,2026-06-12,Customer_239,Monitor,Electronics,North,Q2,5,32400,162000,Cash,Neha
+TXN0704,2026-06-12,Customer_119,Monitor,Electronics,West,Q2,4,11700,46800,UPI,Aarav
+TXN0705,2026-06-12,Customer_238,Webcam,Accessories,East,Q2,6,4800,28800,Credit Card,Priya
+TXN0706,2026-06-13,Customer_020,Office Chair,Furniture,South,Q2,4,10500,42000,Credit Card,Ishita
+TXN0707,2026-06-13,Customer_131,Monitor,Electronics,Central,Q2,7,13700,95900,UPI,Ishita
+TXN0708,2026-06-13,Customer_104,Desk,Furniture,East,Q2,4,9700,38800,Cash,Neha
+TXN0709,2026-06-13,Customer_028,Desk,Furniture,North,Q2,4,19100,76400,Net Banking,Vikram
+TXN0710,2026-06-13,Customer_004,Monitor,Electronics,South,Q2,5,14300,71500,Credit Card,Arjun
+TXN0711,2026-06-14,Customer_096,Office Chair,Furniture,Central,Q2,3,18800,56400,Credit Card,Ishita
+TXN0712,2026-06-14,Customer_060,Desk,Furniture,North,Q2,3,5100,15300,UPI,Arjun
+TXN0713,2026-06-14,Customer_181,Webcam,Accessories,South,Q2,1,7900,7900,UPI,Neha
+TXN0714,2026-06-14,Customer_168,Printer,Office Equipment,North,Q2,2,22700,45400,Credit Card,Arjun
+TXN0715,2026-06-15,Customer_032,Office Chair,Furniture,North,Q2,7,18800,131600,Net Banking,Priya
+TXN0716,2026-06-15,Customer_201,Keyboard,Accessories,West,Q2,2,3500,7000,Net Banking,Neha
+TXN0717,2026-06-15,Customer_227,Tablet,Electronics,South,Q2,4,31400,125600,Net Banking,Rahul
+TXN0718,2026-06-15,Customer_109,Printer,Office Equipment,North,Q2,6,27900,167400,UPI,Vikram
+TXN0719,2026-06-16,Customer_188,Headphones,Accessories,South,Q2,3,9200,27600,Net Banking,Ananya
+TXN0720,2026-06-16,Customer_187,Office Chair,Furniture,West,Q2,1,22600,22600,Cash,Neha
+TXN0721,2026-06-16,Customer_246,Tablet,Electronics,South,Q2,4,36200,144800,Cash,Neha
+TXN0722,2026-06-16,Customer_185,Desk,Furniture,East,Q2,7,14700,102900,Credit Card,Rahul
+TXN0723,2026-06-16,Customer_069,Laptop,Electronics,West,Q2,3,88800,266400,UPI,Arjun
+TXN0724,2026-06-17,Customer_250,Printer,Office Equipment,West,Q2,7,12800,89600,Net Banking,Vikram
+TXN0725,2026-06-17,Customer_244,Webcam,Accessories,Central,Q2,2,2900,5800,UPI,Neha
+TXN0726,2026-06-17,Customer_205,Monitor,Electronics,North,Q2,1,23900,23900,Credit Card,Ishita
+TXN0727,2026-06-17,Customer_174,Smartphone,Electronics,East,Q2,3,17200,51600,Credit Card,Arjun
+TXN0728,2026-06-18,Customer_217,Office Chair,Furniture,Central,Q2,5,16800,84000,Credit Card,Neha
+TXN0729,2026-06-18,Customer_103,Smartphone,Electronics,Central,Q2,7,47800,334600,Credit Card,Vikram
+TXN0730,2026-06-18,Customer_094,Smartphone,Electronics,Central,Q2,5,52100,260500,UPI,Ishita
+TXN0731,2026-06-18,Customer_180,Tablet,Electronics,South,Q2,4,42800,171200,Net Banking,Arjun
+TXN0732,2026-06-19,Customer_158,Keyboard,Accessories,North,Q2,7,4200,29400,UPI,Ananya
+TXN0733,2026-06-19,Customer_044,Printer,Office Equipment,East,Q2,6,29900,179400,Debit Card,Priya
+TXN0734,2026-06-19,Customer_237,Printer,Office Equipment,North,Q2,7,18200,127400,UPI,Ishita
+TXN0735,2026-06-19,Customer_065,Desk,Furniture,East,Q2,3,7900,23700,Credit Card,Neha
+TXN0736,2026-06-19,Customer_095,Tablet,Electronics,North,Q2,3,39000,117000,UPI,Ishita
+TXN0737,2026-06-20,Customer_168,Webcam,Accessories,South,Q2,5,8900,44500,Cash,Vikram
+TXN0738,2026-06-20,Customer_177,Tablet,Electronics,East,Q2,6,21200,127200,Debit Card,Rahul
+TXN0739,2026-06-20,Customer_194,Desk,Furniture,East,Q2,1,10600,10600,Net Banking,Rahul
+TXN0740,2026-06-20,Customer_230,Laptop,Electronics,West,Q2,6,82100,492600,Credit Card,Neha
+TXN0741,2026-06-21,Customer_068,Office Chair,Furniture,South,Q2,5,25600,128000,UPI,Rahul
+TXN0742,2026-06-21,Customer_058,Monitor,Electronics,North,Q2,2,21400,42800,UPI,Ananya
+TXN0743,2026-06-21,Customer_186,Office Chair,Furniture,West,Q2,4,27800,111200,Debit Card,Neha
+TXN0744,2026-06-21,Customer_170,Desk,Furniture,South,Q2,3,19400,58200,UPI,Arjun
+TXN0745,2026-06-22,Customer_236,Desk,Furniture,East,Q2,2,20800,41600,UPI,Arjun
+TXN0746,2026-06-22,Customer_119,Desk,Furniture,Central,Q2,4,9600,38400,UPI,Arjun
+TXN0747,2026-06-22,Customer_118,Smartphone,Electronics,South,Q2,3,28600,85800,UPI,Priya
+TXN0748,2026-06-22,Customer_152,Monitor,Electronics,Central,Q2,2,14400,28800,Debit Card,Priya
+TXN0749,2026-06-22,Customer_105,Laptop,Electronics,Central,Q2,7,73500,514500,Net Banking,Priya
+TXN0750,2026-06-23,Customer_084,Smartphone,Electronics,West,Q2,7,63700,445900,Net Banking,Arjun
+TXN0751,2026-06-23,Customer_066,Office Chair,Furniture,East,Q2,1,16200,16200,Credit Card,Vikram
+TXN0752,2026-06-23,Customer_214,Printer,Office Equipment,Central,Q2,4,26300,105200,Cash,Aarav
+TXN0753,2026-06-23,Customer_250,Monitor,Electronics,South,Q2,6,27100,162600,Net Banking,Arjun
+TXN0754,2026-06-24,Customer_122,Printer,Office Equipment,Central,Q2,5,20800,104000,UPI,Rahul
+TXN0755,2026-06-24,Customer_149,Office Chair,Furniture,West,Q2,4,19200,76800,Debit Card,Neha
+TXN0756,2026-06-24,Customer_040,Desk,Furniture,South,Q2,7,16900,118300,Credit Card,Aarav
+TXN0757,2026-06-24,Customer_203,Monitor,Electronics,Central,Q2,1,12100,12100,Cash,Priya
+TXN0758,2026-06-25,Customer_187,Keyboard,Accessories,Central,Q2,7,2900,20300,Cash,Vikram
+TXN0759,2026-06-25,Customer_193,Printer,Office Equipment,West,Q2,3,21100,63300,Debit Card,Neha
+TXN0760,2026-06-25,Customer_200,Office Chair,Furniture,Central,Q2,2,23600,47200,Cash,Neha
+TXN0761,2026-06-25,Customer_223,Webcam,Accessories,South,Q2,6,4400,26400,Cash,Ishita
+TXN0762,2026-06-25,Customer_089,Smartphone,Electronics,West,Q2,7,21400,149800,UPI,Arjun
+TXN0763,2026-06-26,Customer_065,Headphones,Accessories,North,Q2,5,7900,39500,Credit Card,Neha
+TXN0764,2026-06-26,Customer_022,Webcam,Accessories,East,Q2,5,8100,40500,Cash,Ishita
+TXN0765,2026-06-26,Customer_017,Desk,Furniture,South,Q2,6,18700,112200,Cash,Aarav
+TXN0766,2026-06-26,Customer_173,Headphones,Accessories,East,Q2,1,5300,5300,Cash,Arjun
+TXN0767,2026-06-27,Customer_241,Headphones,Accessories,Central,Q2,5,5500,27500,Debit Card,Ananya
+TXN0768,2026-06-27,Customer_049,Headphones,Accessories,North,Q2,5,11300,56500,Credit Card,Priya
+TXN0769,2026-06-27,Customer_198,Keyboard,Accessories,East,Q2,2,3200,6400,Credit Card,Priya
+TXN0770,2026-06-27,Customer_206,Monitor,Electronics,Central,Q2,1,33200,33200,Net Banking,Arjun
+TXN0771,2026-06-28,Customer_236,Tablet,Electronics,East,Q2,7,52700,368900,UPI,Rahul
+TXN0772,2026-06-28,Customer_160,Tablet,Electronics,South,Q2,4,38400,153600,Net Banking,Ishita
+TXN0773,2026-06-28,Customer_071,Desk,Furniture,East,Q2,5,12400,62000,Credit Card,Aarav
+TXN0774,2026-06-28,Customer_058,Tablet,Electronics,Central,Q2,4,33300,133200,Net Banking,Ishita
+TXN0775,2026-06-28,Customer_096,Monitor,Electronics,Central,Q2,5,15500,77500,Credit Card,Arjun
+TXN0776,2026-06-29,Customer_015,Tablet,Electronics,East,Q2,6,29800,178800,UPI,Arjun
+TXN0777,2026-06-29,Customer_115,Smartphone,Electronics,South,Q2,7,66400,464800,Cash,Aarav
+TXN0778,2026-06-29,Customer_146,Tablet,Electronics,South,Q2,6,45800,274800,Cash,Vikram
+TXN0779,2026-06-29,Customer_126,Office Chair,Furniture,Central,Q2,4,16300,65200,Cash,Neha
+TXN0780,2026-06-30,Customer_108,Headphones,Accessories,West,Q2,2,4000,8000,Cash,Arjun
+TXN0781,2026-06-30,Customer_168,Headphones,Accessories,South,Q2,2,10400,20800,UPI,Vikram
+TXN0782,2026-06-30,Customer_120,Webcam,Accessories,East,Q2,4,4100,16400,Debit Card,Priya
+TXN0783,2026-06-30,Customer_081,Laptop,Electronics,North,Q2,4,68000,272000,Debit Card,Vikram
+TXN0784,2026-07-01,Customer_193,Headphones,Accessories,West,Q3,6,6100,36600,Debit Card,Vikram
+TXN0785,2026-07-01,Customer_076,Webcam,Accessories,North,Q3,3,10000,30000,Credit Card,Aarav
+TXN0786,2026-07-01,Customer_083,Printer,Office Equipment,Central,Q3,1,12000,12000,Cash,Arjun
+TXN0787,2026-07-01,Customer_156,Monitor,Electronics,South,Q3,7,20400,142800,Cash,Ishita
+TXN0788,2026-07-01,Customer_249,Printer,Office Equipment,South,Q3,2,27800,55600,UPI,Aarav
+TXN0789,2026-07-02,Customer_010,Tablet,Electronics,East,Q3,4,30400,121600,Debit Card,Rahul
+TXN0790,2026-07-02,Customer_135,Keyboard,Accessories,North,Q3,5,5800,29000,Credit Card,Ananya
+TXN0791,2026-07-02,Customer_075,Printer,Office Equipment,North,Q3,2,28400,56800,Debit Card,Priya
+TXN0792,2026-07-02,Customer_144,Tablet,Electronics,North,Q3,5,45100,225500,Net Banking,Rahul
+TXN0793,2026-07-03,Customer_132,Webcam,Accessories,South,Q3,4,5200,20800,Credit Card,Rahul
+TXN0794,2026-07-03,Customer_119,Desk,Furniture,West,Q3,7,7200,50400,Net Banking,Vikram
+TXN0795,2026-07-03,Customer_120,Laptop,Electronics,West,Q3,7,64000,448000,Cash,Ishita
+TXN0796,2026-07-03,Customer_028,Keyboard,Accessories,Central,Q3,2,1700,3400,Net Banking,Vikram
+TXN0797,2026-07-04,Customer_237,Office Chair,Furniture,West,Q3,6,22800,136800,Net Banking,Vikram
+TXN0798,2026-07-04,Customer_228,Keyboard,Accessories,West,Q3,5,2800,14000,Debit Card,Vikram
+TXN0799,2026-07-04,Customer_027,Webcam,Accessories,West,Q3,5,8500,42500,Cash,Ananya
+TXN0800,2026-07-04,Customer_130,Printer,Office Equipment,South,Q3,6,15600,93600,Cash,Neha
+TXN0801,2026-07-04,Customer_215,Monitor,Electronics,South,Q3,6,19800,118800,Cash,Rahul
+TXN0802,2026-07-05,Customer_180,Headphones,Accessories,West,Q3,5,5100,25500,Net Banking,Aarav
+TXN0803,2026-07-05,Customer_070,Office Chair,Furniture,West,Q3,3,15600,46800,UPI,Ananya
+TXN0804,2026-07-05,Customer_005,Printer,Office Equipment,West,Q3,4,10300,41200,Debit Card,Vikram
+TXN0805,2026-07-05,Customer_044,Headphones,Accessories,South,Q3,2,1900,3800,Cash,Priya
+TXN0806,2026-07-06,Customer_068,Printer,Office Equipment,East,Q3,2,19100,38200,Credit Card,Neha
+TXN0807,2026-07-06,Customer_159,Tablet,Electronics,East,Q3,1,36800,36800,Cash,Ishita
+TXN0808,2026-07-06,Customer_130,Smartphone,Electronics,South,Q3,3,37600,112800,Net Banking,Ishita
+TXN0809,2026-07-06,Customer_159,Laptop,Electronics,East,Q3,6,55900,335400,UPI,Rahul
+TXN0810,2026-07-07,Customer_154,Office Chair,Furniture,South,Q3,5,23400,117000,Net Banking,Arjun
+TXN0811,2026-07-07,Customer_224,Laptop,Electronics,North,Q3,1,74700,74700,Net Banking,Vikram
+TXN0812,2026-07-07,Customer_024,Webcam,Accessories,West,Q3,7,4400,30800,Net Banking,Rahul
+TXN0813,2026-07-07,Customer_171,Webcam,Accessories,East,Q3,3,9800,29400,Cash,Rahul
+TXN0814,2026-07-07,Customer_182,Tablet,Electronics,South,Q3,2,50900,101800,UPI,Ishita
+TXN0815,2026-07-08,Customer_084,Smartphone,Electronics,West,Q3,4,15100,60400,UPI,Ishita
+TXN0816,2026-07-08,Customer_225,Webcam,Accessories,Central,Q3,4,9600,38400,UPI,Neha
+TXN0817,2026-07-08,Customer_208,Webcam,Accessories,Central,Q3,7,2900,20300,UPI,Ananya
+TXN0818,2026-07-08,Customer_080,Smartphone,Electronics,South,Q3,3,21200,63600,Credit Card,Aarav
+TXN0819,2026-07-09,Customer_076,Smartphone,Electronics,South,Q3,4,33300,133200,UPI,Priya
+TXN0820,2026-07-09,Customer_039,Printer,Office Equipment,West,Q3,2,26500,53000,Credit Card,Aarav
+TXN0821,2026-07-09,Customer_246,Tablet,Electronics,East,Q3,4,44800,179200,Credit Card,Arjun
+TXN0822,2026-07-09,Customer_015,Printer,Office Equipment,West,Q3,6,16800,100800,Cash,Ananya
+TXN0823,2026-07-10,Customer_149,Monitor,Electronics,South,Q3,5,10600,53000,Cash,Priya
+TXN0824,2026-07-10,Customer_058,Desk,Furniture,West,Q3,6,18600,111600,Net Banking,Vikram
+TXN0825,2026-07-10,Customer_080,Monitor,Electronics,Central,Q3,6,23100,138600,Net Banking,Ishita
+TXN0826,2026-07-10,Customer_148,Printer,Office Equipment,South,Q3,1,26400,26400,Debit Card,Arjun
+TXN0827,2026-07-10,Customer_243,Keyboard,Accessories,West,Q3,4,2800,11200,UPI,Vikram
+TXN0828,2026-07-11,Customer_046,Office Chair,Furniture,West,Q3,6,9700,58200,UPI,Aarav
+TXN0829,2026-07-11,Customer_005,Headphones,Accessories,Central,Q3,7,6700,46900,Debit Card,Ananya
+TXN0830,2026-07-11,Customer_043,Office Chair,Furniture,North,Q3,3,13300,39900,Cash,Arjun
+TXN0831,2026-07-11,Customer_110,Tablet,Electronics,Central,Q3,1,38500,38500,Debit Card,Ananya
+TXN0832,2026-07-12,Customer_070,Tablet,Electronics,North,Q3,5,37000,185000,Credit Card,Vikram
+TXN0833,2026-07-12,Customer_072,Keyboard,Accessories,North,Q3,4,2300,9200,Net Banking,Ananya
+TXN0834,2026-07-12,Customer_054,Office Chair,Furniture,East,Q3,3,24400,73200,Cash,Neha
+TXN0835,2026-07-12,Customer_195,Webcam,Accessories,North,Q3,3,9200,27600,Credit Card,Vikram
+TXN0836,2026-07-13,Customer_084,Laptop,Electronics,Central,Q3,1,74600,74600,Debit Card,Aarav
+TXN0837,2026-07-13,Customer_219,Tablet,Electronics,West,Q3,4,22700,90800,Net Banking,Ananya
+TXN0838,2026-07-13,Customer_243,Monitor,Electronics,East,Q3,1,30100,30100,Debit Card,Vikram
+TXN0839,2026-07-13,Customer_111,Printer,Office Equipment,Central,Q3,6,14800,88800,Cash,Neha
+TXN0840,2026-07-14,Customer_090,Tablet,Electronics,East,Q3,4,38400,153600,Credit Card,Arjun
+TXN0841,2026-07-14,Customer_240,Printer,Office Equipment,East,Q3,4,22300,89200,Net Banking,Arjun
+TXN0842,2026-07-14,Customer_042,Office Chair,Furniture,East,Q3,6,8000,48000,Debit Card,Neha
+TXN0843,2026-07-14,Customer_134,Smartphone,Electronics,West,Q3,3,29900,89700,UPI,Priya
+TXN0844,2026-07-14,Customer_187,Laptop,Electronics,West,Q3,3,87400,262200,Debit Card,Arjun
+TXN0845,2026-07-15,Customer_102,Monitor,Electronics,West,Q3,1,27500,27500,Debit Card,Rahul
+TXN0846,2026-07-15,Customer_088,Keyboard,Accessories,North,Q3,5,1300,6500,Cash,Aarav
+TXN0847,2026-07-15,Customer_118,Headphones,Accessories,West,Q3,6,5000,30000,Debit Card,Ishita
+TXN0848,2026-07-15,Customer_011,Laptop,Electronics,West,Q3,7,73200,512400,UPI,Arjun
+TXN0849,2026-07-16,Customer_111,Office Chair,Furniture,North,Q3,2,19300,38600,Credit Card,Aarav
+TXN0850,2026-07-16,Customer_164,Headphones,Accessories,East,Q3,5,5100,25500,Net Banking,Aarav
+TXN0851,2026-07-16,Customer_093,Tablet,Electronics,Central,Q3,6,31100,186600,UPI,Rahul
+TXN0852,2026-07-16,Customer_181,Headphones,Accessories,West,Q3,2,7900,15800,Credit Card,Neha
+TXN0853,2026-07-17,Customer_022,Office Chair,Furniture,North,Q3,1,26800,26800,Credit Card,Aarav
+TXN0854,2026-07-17,Customer_135,Printer,Office Equipment,Central,Q3,2,18500,37000,Credit Card,Neha
+TXN0855,2026-07-17,Customer_181,Monitor,Electronics,West,Q3,1,13200,13200,Credit Card,Ananya
+TXN0856,2026-07-17,Customer_218,Laptop,Electronics,West,Q3,4,63400,253600,UPI,Arjun
+TXN0857,2026-07-17,Customer_008,Smartphone,Electronics,Central,Q3,1,20400,20400,Debit Card,Ananya
+TXN0858,2026-07-18,Customer_027,Smartphone,Electronics,North,Q3,4,19400,77600,Credit Card,Ananya
+TXN0859,2026-07-18,Customer_031,Tablet,Electronics,West,Q3,7,50200,351400,Cash,Aarav
+TXN0860,2026-07-18,Customer_039,Office Chair,Furniture,North,Q3,6,22900,137400,Net Banking,Neha
+TXN0861,2026-07-18,Customer_012,Headphones,Accessories,West,Q3,3,9800,29400,Credit Card,Priya
+TXN0862,2026-07-19,Customer_001,Keyboard,Accessories,South,Q3,7,5700,39900,Credit Card,Arjun
+TXN0863,2026-07-19,Customer_044,Webcam,Accessories,East,Q3,5,5500,27500,Cash,Priya
+TXN0864,2026-07-19,Customer_033,Keyboard,Accessories,South,Q3,6,4400,26400,Cash,Ananya
+TXN0865,2026-07-19,Customer_137,Headphones,Accessories,Central,Q3,6,1700,10200,Net Banking,Arjun
+TXN0866,2026-07-20,Customer_015,Laptop,Electronics,South,Q3,3,60300,180900,Net Banking,Arjun
+TXN0867,2026-07-20,Customer_003,Keyboard,Accessories,East,Q3,4,1500,6000,Credit Card,Ananya
+TXN0868,2026-07-20,Customer_108,Headphones,Accessories,East,Q3,5,11000,55000,Credit Card,Rahul
+TXN0869,2026-07-20,Customer_113,Monitor,Electronics,South,Q3,3,24700,74100,Cash,Ishita
+TXN0870,2026-07-20,Customer_134,Headphones,Accessories,South,Q3,2,10200,20400,UPI,Arjun
+TXN0871,2026-07-21,Customer_144,Printer,Office Equipment,West,Q3,5,17100,85500,Net Banking,Rahul
+TXN0872,2026-07-21,Customer_173,Office Chair,Furniture,Central,Q3,1,19000,19000,Cash,Priya
+TXN0873,2026-07-21,Customer_039,Keyboard,Accessories,South,Q3,3,2300,6900,Cash,Rahul
+TXN0874,2026-07-21,Customer_029,Tablet,Electronics,East,Q3,3,45500,136500,Net Banking,Arjun
+TXN0875,2026-07-22,Customer_067,Headphones,Accessories,South,Q3,5,11500,57500,Net Banking,Arjun
+TXN0876,2026-07-22,Customer_045,Monitor,Electronics,Central,Q3,3,11600,34800,Debit Card,Ishita
+TXN0877,2026-07-22,Customer_245,Printer,Office Equipment,North,Q3,4,13700,54800,Credit Card,Aarav
+TXN0878,2026-07-22,Customer_001,Headphones,Accessories,South,Q3,1,8300,8300,Debit Card,Ishita
+TXN0879,2026-07-23,Customer_012,Desk,Furniture,North,Q3,1,6300,6300,UPI,Ananya
+TXN0880,2026-07-23,Customer_169,Webcam,Accessories,West,Q3,6,6400,38400,UPI,Arjun
+TXN0881,2026-07-23,Customer_025,Headphones,Accessories,South,Q3,7,9200,64400,Cash,Rahul
+TXN0882,2026-07-23,Customer_185,Smartphone,Electronics,West,Q3,3,15200,45600,Debit Card,Ishita
+TXN0883,2026-07-23,Customer_068,Printer,Office Equipment,North,Q3,4,20800,83200,Credit Card,Ishita
+TXN0884,2026-07-24,Customer_208,Tablet,Electronics,Central,Q3,2,40200,80400,Cash,Vikram
+TXN0885,2026-07-24,Customer_111,Printer,Office Equipment,South,Q3,4,11900,47600,Credit Card,Priya
+TXN0886,2026-07-24,Customer_063,Office Chair,Furniture,West,Q3,5,17000,85000,Cash,Priya
+TXN0887,2026-07-24,Customer_035,Printer,Office Equipment,Central,Q3,7,25200,176400,Credit Card,Neha
+TXN0888,2026-07-25,Customer_233,Headphones,Accessories,North,Q3,5,3900,19500,Debit Card,Rahul
+TXN0889,2026-07-25,Customer_246,Office Chair,Furniture,East,Q3,6,10800,64800,Credit Card,Ananya
+TXN0890,2026-07-25,Customer_187,Office Chair,Furniture,North,Q3,4,15800,63200,Debit Card,Ananya
+TXN0891,2026-07-25,Customer_037,Monitor,Electronics,South,Q3,5,14500,72500,Debit Card,Priya
+TXN0892,2026-07-26,Customer_087,Tablet,Electronics,West,Q3,6,32900,197400,Net Banking,Ishita
+TXN0893,2026-07-26,Customer_072,Tablet,Electronics,West,Q3,4,54800,219200,Cash,Priya
+TXN0894,2026-07-26,Customer_065,Desk,Furniture,East,Q3,5,21900,109500,Debit Card,Rahul
+TXN0895,2026-07-26,Customer_146,Office Chair,Furniture,North,Q3,6,26700,160200,Cash,Aarav
+TXN0896,2026-07-26,Customer_172,Office Chair,Furniture,South,Q3,7,13600,95200,Debit Card,Arjun
+TXN0897,2026-07-27,Customer_050,Desk,Furniture,West,Q3,3,11000,33000,Debit Card,Neha
+TXN0898,2026-07-27,Customer_031,Printer,Office Equipment,Central,Q3,5,20500,102500,Credit Card,Ishita
+TXN0899,2026-07-27,Customer_246,Laptop,Electronics,Central,Q3,7,67700,473900,Net Banking,Aarav
+TXN0900,2026-07-27,Customer_242,Printer,Office Equipment,North,Q3,2,14300,28600,Debit Card,Aarav
+TXN0901,2026-07-28,Customer_142,Headphones,Accessories,South,Q3,6,1800,10800,Debit Card,Arjun
+TXN0902,2026-07-28,Customer_019,Keyboard,Accessories,South,Q3,3,1500,4500,UPI,Ananya
+TXN0903,2026-07-28,Customer_001,Desk,Furniture,West,Q3,5,9300,46500,UPI,Vikram
+TXN0904,2026-07-28,Customer_226,Laptop,Electronics,North,Q3,4,59900,239600,Credit Card,Vikram
+TXN0905,2026-07-29,Customer_016,Tablet,Electronics,East,Q3,7,33900,237300,UPI,Aarav
+TXN0906,2026-07-29,Customer_080,Webcam,Accessories,West,Q3,3,3700,11100,Credit Card,Priya
+TXN0907,2026-07-29,Customer_021,Printer,Office Equipment,South,Q3,5,21100,105500,UPI,Ishita
+TXN0908,2026-07-29,Customer_030,Office Chair,Furniture,North,Q3,7,10600,74200,Net Banking,Priya
+TXN0909,2026-07-29,Customer_223,Desk,Furniture,West,Q3,4,11100,44400,UPI,Vikram
+TXN0910,2026-07-30,Customer_016,Printer,Office Equipment,East,Q3,2,28500,57000,UPI,Ananya
+TXN0911,2026-07-30,Customer_079,Keyboard,Accessories,South,Q3,7,4400,30800,Credit Card,Vikram
+TXN0912,2026-07-30,Customer_189,Monitor,Electronics,North,Q3,2,28400,56800,Debit Card,Ishita
+TXN0913,2026-07-30,Customer_099,Printer,Office Equipment,Central,Q3,6,13600,81600,Cash,Priya
+TXN0914,2026-07-31,Customer_074,Monitor,Electronics,West,Q3,5,26900,134500,UPI,Ananya
+TXN0915,2026-07-31,Customer_060,Office Chair,Furniture,Central,Q3,2,21300,42600,Cash,Neha
+TXN0916,2026-07-31,Customer_223,Webcam,Accessories,North,Q3,3,9100,27300,Credit Card,Ananya
+TXN0917,2026-07-31,Customer_153,Office Chair,Furniture,Central,Q3,1,10800,10800,Credit Card,Arjun
+TXN0918,2026-08-01,Customer_186,Webcam,Accessories,East,Q3,7,6300,44100,Credit Card,Rahul
+TXN0919,2026-08-01,Customer_211,Headphones,Accessories,East,Q3,4,9300,37200,Net Banking,Rahul
+TXN0920,2026-08-01,Customer_217,Desk,Furniture,West,Q3,1,11300,11300,Debit Card,Arjun
+TXN0921,2026-08-01,Customer_007,Laptop,Electronics,East,Q3,3,93300,279900,UPI,Aarav
+TXN0922,2026-08-01,Customer_220,Headphones,Accessories,West,Q3,3,4100,12300,Debit Card,Priya
+TXN0923,2026-08-02,Customer_007,Laptop,Electronics,East,Q3,7,92000,644000,Credit Card,Priya
+TXN0924,2026-08-02,Customer_146,Monitor,Electronics,Central,Q3,1,32800,32800,UPI,Arjun
+TXN0925,2026-08-02,Customer_026,Laptop,Electronics,East,Q3,6,80800,484800,Credit Card,Ananya
+TXN0926,2026-08-02,Customer_078,Tablet,Electronics,East,Q3,3,49900,149700,Credit Card,Ishita
+TXN0927,2026-08-03,Customer_222,Keyboard,Accessories,East,Q3,6,4400,26400,Debit Card,Ananya
+TXN0928,2026-08-03,Customer_109,Headphones,Accessories,North,Q3,3,9900,29700,Cash,Arjun
+TXN0929,2026-08-03,Customer_123,Desk,Furniture,East,Q3,6,9300,55800,Cash,Ishita
+TXN0930,2026-08-03,Customer_208,Office Chair,Furniture,West,Q3,3,27100,81300,UPI,Rahul
+TXN0931,2026-08-04,Customer_063,Webcam,Accessories,West,Q3,5,7300,36500,Cash,Aarav
+TXN0932,2026-08-04,Customer_048,Laptop,Electronics,East,Q3,3,86700,260100,Net Banking,Arjun
+TXN0933,2026-08-04,Customer_112,Tablet,Electronics,Central,Q3,4,35300,141200,Cash,Arjun
+TXN0934,2026-08-04,Customer_151,Laptop,Electronics,South,Q3,4,84000,336000,Credit Card,Neha
+TXN0935,2026-08-04,Customer_027,Smartphone,Electronics,South,Q3,7,18900,132300,Net Banking,Arjun
+TXN0936,2026-08-05,Customer_047,Desk,Furniture,Central,Q3,7,9200,64400,UPI,Priya
+TXN0937,2026-08-05,Customer_222,Desk,Furniture,West,Q3,5,7400,37000,UPI,Vikram
+TXN0938,2026-08-05,Customer_236,Laptop,Electronics,North,Q3,2,69800,139600,Cash,Priya
+TXN0939,2026-08-05,Customer_247,Smartphone,Electronics,Central,Q3,6,40400,242400,UPI,Neha
+TXN0940,2026-08-06,Customer_209,Desk,Furniture,Central,Q3,3,9200,27600,UPI,Ishita
+TXN0941,2026-08-06,Customer_022,Monitor,Electronics,East,Q3,5,20300,101500,Cash,Ishita
+TXN0942,2026-08-06,Customer_171,Smartphone,Electronics,North,Q3,2,52000,104000,Credit Card,Arjun
+TXN0943,2026-08-06,Customer_226,Smartphone,Electronics,North,Q3,4,43200,172800,UPI,Vikram
+TXN0944,2026-08-07,Customer_051,Keyboard,Accessories,North,Q3,4,1200,4800,Cash,Ishita
+TXN0945,2026-08-07,Customer_066,Printer,Office Equipment,North,Q3,5,27000,135000,Debit Card,Ananya
+TXN0946,2026-08-07,Customer_183,Headphones,Accessories,Central,Q3,6,9300,55800,Debit Card,Neha
+TXN0947,2026-08-07,Customer_127,Laptop,Electronics,North,Q3,2,83900,167800,UPI,Ishita
+TXN0948,2026-08-07,Customer_027,Monitor,Electronics,East,Q3,4,16100,64400,Debit Card,Ishita
+TXN0949,2026-08-08,Customer_183,Laptop,Electronics,West,Q3,4,64400,257600,Net Banking,Neha
+TXN0950,2026-08-08,Customer_216,Smartphone,Electronics,North,Q3,7,56300,394100,Cash,Ishita
+TXN0951,2026-08-08,Customer_229,Smartphone,Electronics,East,Q3,6,33800,202800,Cash,Priya
+TXN0952,2026-08-08,Customer_182,Laptop,Electronics,East,Q3,7,85900,601300,Credit Card,Priya
+TXN0953,2026-08-09,Customer_248,Webcam,Accessories,South,Q3,4,9900,39600,Credit Card,Arjun
+TXN0954,2026-08-09,Customer_193,Desk,Furniture,West,Q3,6,9200,55200,UPI,Ananya
+TXN0955,2026-08-09,Customer_218,Smartphone,Electronics,North,Q3,3,29700,89100,Debit Card,Arjun
+TXN0956,2026-08-09,Customer_198,Webcam,Accessories,West,Q3,3,3400,10200,Debit Card,Neha
+TXN0957,2026-08-10,Customer_113,Desk,Furniture,East,Q3,1,21200,21200,UPI,Arjun
+TXN0958,2026-08-10,Customer_022,Tablet,Electronics,East,Q3,6,31900,191400,Net Banking,Neha
+TXN0959,2026-08-10,Customer_193,Tablet,Electronics,South,Q3,1,37900,37900,Credit Card,Aarav
+TXN0960,2026-08-10,Customer_207,Headphones,Accessories,East,Q3,6,8600,51600,Debit Card,Aarav
+TXN0961,2026-08-10,Customer_129,Smartphone,Electronics,West,Q3,3,56800,170400,Cash,Vikram
+TXN0962,2026-08-11,Customer_129,Headphones,Accessories,East,Q3,5,3300,16500,Cash,Vikram
+TXN0963,2026-08-11,Customer_065,Headphones,Accessories,West,Q3,2,6900,13800,Credit Card,Ishita
+TXN0964,2026-08-11,Customer_135,Laptop,Electronics,West,Q3,1,87100,87100,Cash,Arjun
+TXN0965,2026-08-11,Customer_206,Smartphone,Electronics,East,Q3,6,67400,404400,Credit Card,Priya
+TXN0966,2026-08-12,Customer_140,Smartphone,Electronics,North,Q3,5,39600,198000,Net Banking,Aarav
+TXN0967,2026-08-12,Customer_198,Headphones,Accessories,East,Q3,7,7200,50400,Credit Card,Neha
+TXN0968,2026-08-12,Customer_205,Laptop,Electronics,West,Q3,7,93000,651000,Debit Card,Priya
+TXN0969,2026-08-12,Customer_055,Laptop,Electronics,East,Q3,7,83000,581000,UPI,Vikram
+TXN0970,2026-08-13,Customer_080,Smartphone,Electronics,Central,Q3,7,60600,424200,Credit Card,Rahul
+TXN0971,2026-08-13,Customer_097,Tablet,Electronics,North,Q3,7,41400,289800,UPI,Arjun
+TXN0972,2026-08-13,Customer_031,Office Chair,Furniture,South,Q3,3,24300,72900,Debit Card,Arjun
+TXN0973,2026-08-13,Customer_180,Printer,Office Equipment,South,Q3,1,20400,20400,Credit Card,Priya
+TXN0974,2026-08-13,Customer_209,Monitor,Electronics,North,Q3,5,19600,98000,Credit Card,Rahul
+TXN0975,2026-08-14,Customer_056,Webcam,Accessories,North,Q3,3,7300,21900,Debit Card,Ananya
+TXN0976,2026-08-14,Customer_186,Laptop,Electronics,South,Q3,6,73900,443400,Net Banking,Priya
+TXN0977,2026-08-14,Customer_215,Office Chair,Furniture,West,Q3,5,14200,71000,Credit Card,Aarav
+TXN0978,2026-08-14,Customer_171,Webcam,Accessories,Central,Q3,1,7100,7100,UPI,Vikram
+TXN0979,2026-08-15,Customer_145,Desk,Furniture,Central,Q3,6,10100,60600,UPI,Priya
+TXN0980,2026-08-15,Customer_137,Printer,Office Equipment,West,Q3,4,10700,42800,UPI,Aarav
+TXN0981,2026-08-15,Customer_168,Keyboard,Accessories,South,Q3,2,5800,11600,Debit Card,Vikram
+TXN0982,2026-08-15,Customer_152,Keyboard,Accessories,South,Q3,2,5400,10800,Cash,Aarav
+TXN0983,2026-08-16,Customer_101,Smartphone,Electronics,Central,Q3,2,24100,48200,Credit Card,Aarav
+TXN0984,2026-08-16,Customer_223,Printer,Office Equipment,West,Q3,6,24700,148200,Credit Card,Rahul
+TXN0985,2026-08-16,Customer_009,Monitor,Electronics,Central,Q3,7,32000,224000,Debit Card,Arjun
+TXN0986,2026-08-16,Customer_180,Keyboard,Accessories,South,Q3,7,4800,33600,UPI,Priya
+TXN0987,2026-08-16,Customer_082,Webcam,Accessories,Central,Q3,6,9700,58200,Debit Card,Priya
+TXN0988,2026-08-17,Customer_236,Laptop,Electronics,North,Q3,2,77100,154200,Net Banking,Aarav
+TXN0989,2026-08-17,Customer_049,Desk,Furniture,South,Q3,7,17300,121100,Debit Card,Ishita
+TXN0990,2026-08-17,Customer_007,Monitor,Electronics,West,Q3,4,33500,134000,Cash,Neha
+TXN0991,2026-08-17,Customer_118,Laptop,Electronics,South,Q3,1,55800,55800,Cash,Arjun
+TXN0992,2026-08-18,Customer_233,Headphones,Accessories,East,Q3,4,3500,14000,Credit Card,Priya
+TXN0993,2026-08-18,Customer_045,Office Chair,Furniture,West,Q3,1,22700,22700,Debit Card,Ananya
+TXN0994,2026-08-18,Customer_002,Monitor,Electronics,West,Q3,5,19900,99500,UPI,Ananya
+TXN0995,2026-08-18,Customer_078,Webcam,Accessories,South,Q3,4,6500,26000,Net Banking,Priya
+TXN0996,2026-08-19,Customer_168,Keyboard,Accessories,South,Q3,4,3300,13200,Credit Card,Aarav
+TXN0997,2026-08-19,Customer_081,Office Chair,Furniture,West,Q3,7,14000,98000,Credit Card,Ananya
+TXN0998,2026-08-19,Customer_183,Monitor,Electronics,West,Q3,3,33500,100500,Credit Card,Ishita
+TXN0999,2026-08-19,Customer_162,Monitor,Electronics,West,Q3,6,24300,145800,Cash,Neha
+TXN1000,2026-08-20,Customer_022,Headphones,Accessories,South,Q3,5,10900,54500,Net Banking,Ananya
