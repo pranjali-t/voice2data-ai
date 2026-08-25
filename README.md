@@ -1,4 +1,9 @@
-﻿# ⚡ VOICE2DATA AI
+## 🚀 Live Demo
+
+[Open Voice2Data AI](https://voice2data-ai-n5wwrqtxuylyddnkpsa97o.streamlit.app/)
+
+
+ # ⚡ VOICE2DATA AI
 > **Natural Language → Safe Pandas Data Automation Engine**  
 > *A Production-Grade Generative AI & Data Analytics System with Zero Code-Generation Risk.*
 
