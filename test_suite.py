@@ -1,4 +1,4 @@
-﻿"""
+"""
 Comprehensive automated test suite for Voice2Data AI.
 Validates the entire pipeline (Intent Extraction, Validation, Pandas Engine, Visualization Correctness)
 against all 10 capstone test commands, semantic visualization tests, and security edge cases.
@@ -6,12 +6,18 @@ against all 10 capstone test commands, semantic visualization tests, and securit
 import sys
 import os
 import io
+from unittest.mock import MagicMock
 import pandas as pd
 
 # Ensure UTF-8 output on Windows
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from engine.gemini_engine import GeminiEngine, rule_based_fallback_intent
+from engine.gemini_engine import (
+    GeminiEngine,
+    rule_based_fallback_intent,
+    resolve_audio_mime_type,
+    sanitize_error_message
+)
 from engine.validator import validate_intent
 from engine.pandas_engine import execute_intent
 from utils.data_loader import load_default_dataset, get_dataset_quality_profile
@@ -229,11 +235,121 @@ def run_all_tests():
         else:
             print(f"[ALERT] Security Check #{i} FAILED: Malicious payload was not blocked!")
 
+    # 6. Test Voice Audio Transcription Workflow & MIME Resolution
+    print("\n--- TESTING VOICE AUDIO TRANSCRIPTION & MIME WORKFLOW ---")
+    print("[NOTE] Testing audio transcription logic using mocked Gemini API responses (no real microphone or live API calls).")
+    voice_checks_passed = 0
+    total_voice_checks = 5
+
+    # Check 6.1: MIME resolution from audio headers and codec parameter sanitization
+    wav_header = b"RIFF\x24\x00\x00\x00WAVEfmt \x10\x00\x00\x00"
+    webm_header = b"\x1aE\xdf\xa3\x9fB\x86\x81\x01B\xf7\x81\x01"
+    ogg_header = b"OggS\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00"
+    mp3_header = b"ID3\x03\x00\x00\x00\x00\x00\x00"
+
+    assert resolve_audio_mime_type(data=wav_header) == "audio/wav", "WAV header resolution failed"
+    assert resolve_audio_mime_type(data=webm_header) == "audio/webm", "WebM header resolution failed"
+    assert resolve_audio_mime_type(data=ogg_header) == "audio/ogg", "Ogg header resolution failed"
+    assert resolve_audio_mime_type(data=mp3_header) == "audio/mp3", "MP3 header resolution failed"
+    assert resolve_audio_mime_type(raw_mime="audio/webm;codecs=opus") == "audio/webm", "Codec parameter stripping failed"
+    print("[VOICE-PASS] Check 6.1: Audio MIME resolution and codec parameter sanitization verified.")
+    voice_checks_passed += 1
+
+    # Check 6.2: Audio Validation on Empty Input
+    text, err = engine.transcribe_audio(b"")
+    assert text is None and "No audio data received" in (err or ""), f"Unexpected response for empty audio: {err}"
+    print("[VOICE-PASS] Check 6.2: Empty audio bytes rejection verified.")
+    voice_checks_passed += 1
+
+    # Check 6.3: Error message sanitization & credential masking
+    fake_key = "AIzaSyDummyKeyForTestingOnly1234567"
+    raw_error = f"API error with key={fake_key} and Bearer {fake_key}"
+    sanitized = sanitize_error_message(raw_error, api_key=fake_key)
+    assert fake_key not in sanitized, "Secret leaked in error message!"
+    assert "[REDACTED" in sanitized, "Secret was not properly redacted"
+    print("[VOICE-PASS] Check 6.3: Credential and API key masking verified.")
+    voice_checks_passed += 1
+
+    # Check 6.4: Mocked GeminiEngine Model Configuration & transcribe_audio() Unit Tests (Zero live API calls)
+    mock_engine = GeminiEngine(api_key="AIzaSyMockTestKey9876543210123456789")
+    mock_client = MagicMock()
+    mock_engine._client = mock_client
+
+    # Verify model resolution prioritizes gemini-3.8-flash and excludes retired models
+    supported_models = mock_engine.get_supported_models()
+    assert supported_models[0] == "gemini-3.8-flash", f"Preferred candidate #1 must be gemini-3.8-flash, got: {supported_models[0]}"
+    retired_blacklist = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash"]
+    for r in retired_blacklist:
+        assert r not in supported_models, f"Retired model {r} must not be present in supported models"
+
+    # 6.4a: Successful transcription of WAV recording with preferred gemini-3.8-flash
+    mock_success_resp = MagicMock()
+    mock_success_resp.text = "Show top 10 customers by revenue"
+    mock_client.models.generate_content.return_value = mock_success_resp
+
+    trans_text, trans_err = mock_engine.transcribe_audio(wav_header, mime_type="audio/wav")
+    assert trans_text == "Show top 10 customers by revenue", f"Expected transcribed text, got: {trans_text}"
+    assert trans_err is None, f"Expected None error on success, got: {trans_err}"
+    assert mock_client.models.generate_content.call_args.kwargs["model"] == "gemini-3.8-flash"
+
+    # 6.4b: WebM container with codec parameter handling
+    mock_webm_resp = MagicMock()
+    mock_webm_resp.text = "Filter Q3 transactions"
+    mock_client.models.generate_content.return_value = mock_webm_resp
+
+    trans_webm_text, trans_webm_err = mock_engine.transcribe_audio(webm_header, mime_type="audio/webm;codecs=opus")
+    assert trans_webm_text == "Filter Q3 transactions", f"WebM transcription mismatch: {trans_webm_text}"
+    assert trans_webm_err is None
+    call_contents = mock_client.models.generate_content.call_args.kwargs["contents"]
+    assert call_contents[0].inline_data.mime_type == "audio/webm", "WebM MIME type was not cleaned before sending to Gemini"
+
+    # 6.4c: Individual model failure tracking & safe credential redaction
+    mock_client.models.generate_content.side_effect = RuntimeError("429 Quota Exceeded on key=AIzaSyMockTestKey9876543210123456789")
+    err_text, err_msg = mock_engine.transcribe_audio(wav_header, mime_type="audio/wav")
+    assert err_text is None
+    assert err_msg is not None and "Transcription failed" in err_msg
+    assert "gemini-3.8-flash" in err_msg, "Initial candidate model failure should be recorded in error summary"
+    assert "AIzaSyMockTestKey" not in err_msg, "API key exposed in error message"
+
+    # 6.4d: Silent / Unintelligible audio handling
+    mock_client.models.generate_content.side_effect = None
+    mock_silent_resp = MagicMock()
+    mock_silent_resp.text = ""
+    mock_silent_resp.candidates = []
+    mock_client.models.generate_content.return_value = mock_silent_resp
+
+    silent_text, silent_msg = mock_engine.transcribe_audio(wav_header, mime_type="audio/wav")
+    assert silent_text is None
+    assert silent_msg is not None and "no spoken speech was detected" in silent_msg
+
+    print("[VOICE-PASS] Check 6.4: Mocked GeminiEngine model configuration (gemini-3.8-flash target, WebM MIME, Safe Error Tracking, Silence) verified.")
+    voice_checks_passed += 1
+
+    # Check 6.5: Downstream Pipeline from Simulated Command (Simulated Pipeline Test)
+    # Clearly distinguished: tests downstream intent extraction + execution using a simulated command string
+    simulated_voice_command = "Show top 10 customers by revenue."
+    intent_v, _ = engine.extract_intent(simulated_voice_command, df)
+    is_valid_v, val_intent_v, _ = validate_intent(intent_v, df)
+    assert is_valid_v, "Simulated voice command validation failed"
+    exec_v = execute_intent(df, val_intent_v)
+    assert exec_v["success"] and len(exec_v["result_df"]) <= 10, "Execution of voice command failed"
+    print(f"[VOICE-PASS] Check 6.5: Downstream Pipeline verified from Simulated Command: '{simulated_voice_command}' -> {val_intent_v['operation']} -> {exec_v['rows_after']} rows.")
+    voice_checks_passed += 1
+
+    # Final Single Unified Results Summary
     print("\n" + "=" * 60)
-    print(f"RESULTS: {passed_count}/{len(test_cases)} Commands Passed | {vis_passed}/{len(vis_cases)} Visualizations Passed | {sec_passed}/{len(malicious_intents)} Security Checks Passed")
+    print(f"RESULTS: {passed_count}/{len(test_cases)} Commands Passed | {vis_passed}/{len(vis_cases)} Visualizations Passed | {sec_passed}/{len(malicious_intents)} Security Checks Passed | {voice_checks_passed}/{total_voice_checks} Voice Checks Passed")
     print("=" * 60)
 
-    if passed_count == len(test_cases) and vis_passed == len(vis_cases) and sec_passed == len(malicious_intents):
+    # Single Unified Condition Checking All 4 Categories
+    all_passed = (
+        passed_count == len(test_cases)
+        and vis_passed == len(vis_cases)
+        and sec_passed == len(malicious_intents)
+        and voice_checks_passed == total_voice_checks
+    )
+
+    if all_passed:
         print("ALL TESTS PASSED SUCCESSFULLY!")
         return True
     else:

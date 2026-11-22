@@ -1,4 +1,4 @@
-﻿"""
+"""
 Automated Visualization Module for Voice2Data AI.
 Generates responsive, dark-themed interactive Plotly charts dynamically
 based on the shape, types, semantics, and intent of the executed query.
@@ -10,14 +10,14 @@ import plotly.graph_objects as go
 
 
 DARK_THEME_LAYOUT = dict(
-    paper_bgcolor="rgba(15, 23, 42, 0.7)",
-    plot_bgcolor="rgba(15, 23, 42, 0.5)",
-    font=dict(family="Inter, -apple-system, sans-serif", color="#e2e8f0", size=12),
+    paper_bgcolor="#111827",
+    plot_bgcolor="#111827",
+    font=dict(family="Inter, -apple-system, sans-serif", color="#94A3B8", size=12),
     margin=dict(l=40, r=40, t=50, b=40),
-    xaxis=dict(gridcolor="rgba(255, 255, 255, 0.08)", zerolinecolor="rgba(255, 255, 255, 0.15)"),
-    yaxis=dict(gridcolor="rgba(255, 255, 255, 0.08)", zerolinecolor="rgba(255, 255, 255, 0.15)"),
-    hoverlabel=dict(bgcolor="#1e293b", font_size=13, font_family="Inter"),
-    colorway=["#38bdf8", "#818cf8", "#34d399", "#fbbf24", "#f472b6", "#a78bfa"]
+    xaxis=dict(gridcolor="rgba(255, 255, 255, 0.06)", zerolinecolor="rgba(255, 255, 255, 0.12)", tickfont=dict(color="#94A3B8")),
+    yaxis=dict(gridcolor="rgba(255, 255, 255, 0.06)", zerolinecolor="rgba(255, 255, 255, 0.12)", tickfont=dict(color="#94A3B8")),
+    hoverlabel=dict(bgcolor="#1E293B", font_size=12, font_family="Inter", bordercolor="rgba(255, 255, 255, 0.15)"),
+    colorway=["#3B82F6", "#6366F1", "#10B981", "#F59E0B", "#EC4899", "#8B5CF6"]
 )
 
 
